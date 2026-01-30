@@ -1,2315 +1,522 @@
 {
-  "pages": {
-    "Home": [
-      {
-        "acf_fc_layout": "hero",
-        "title": "Sekijima Orthodontics — Renton, WA Orthodontist",
-        "text": "",
-        "button": {
-          "type": "anchor",
-          "style": "primary",
-          "label": "Schedule an Appointment",
-          "aria_label": "Schedule an appointment",
-          "href": "http://www.sekijimaorthodontics.com/appointments",
-          "path": "",
-          "hash": "",
-          "external": true,
-          "include_icon": false,
-          "icon": "phone",
-          "color": "black"
-        },
-        "media_type": "image",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg",
-          "webp": "",
-          "alt": "Exterior of Sekijima Orthodontics office in Renton",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "center",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "src": "",
-          "webm": "",
-          "title": ""
-        },
-        "small": false
+  "Home": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "DeFelice Orthodontics",
+      "text": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Request an Appointment",
+        "aria_label": "Request an appointment",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": true,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "black"
       },
-      {
-        "acf_fc_layout": "block_text_fh",
-        "title": "Welcome to Sekijima Orthodontics",
-        "paragraphs": [
-          {
-            "text": "Open communication with parents and patients is vital to effective orthodontic care. We want our patients and their families to feel comfortable in all aspects of their treatment and encourage them to ask questions throughout their orthodontic treatment with us."
-          },
-          {
-            "text": "We value honesty and integrity in all that we do, and treat each person as we would want to be treated. We truly enjoy what we do—creating beautiful smiles. We appreciate that our patients have chosen us for their orthodontic needs."
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "add_texture": false,
-        "linear_gradient": ""
+      "media_type": "image",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.webp",
+        "alt": "DeFelice Orthodontics team smiling and welcoming patients",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
       },
-      {
-        "acf_fc_layout": "multi_item_row",
-        "title": "Why choose Sekijima Orthodontics?",
-        "items": [
-          {
-            "title": "Clear Communication",
-            "icon": "envelope",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/our-staff.jpg",
-              "webp": "",
-              "alt": "Sekijima Orthodontics team interacting with patients",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "text": "Open, clear communication with patients and families for better care and comfort.",
-            "add_button": false,
-            "button": {
-              "button_type": "button",
-              "path": "",
-              "hash": "",
-              "href": "",
-              "label": "",
-              "aria": ""
-            }
-          },
-          {
-            "title": "Experienced Team",
-            "icon": "tooth-two-v1",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/our-staff.jpg",
-              "webp": "",
-              "alt": "Long-serving orthodontic staff",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "text": "Experienced, long-serving staff and doctors serving the Renton Highlands since 1988.",
-            "add_button": false,
-            "button": {
-              "button_type": "button",
-              "path": "",
-              "hash": "",
-              "href": "",
-              "label": "",
-              "aria": ""
-            }
-          },
-          {
-            "title": "Flexible Scheduling",
-            "icon": "phone",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-              "webp": "",
-              "alt": "Orthodontic scheduling and patient convenience",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "text": "Flexible appointment scheduling and attention to patient convenience.",
-            "add_button": false,
-            "button": {
-              "button_type": "button",
-              "path": "",
-              "hash": "",
-              "href": "",
-              "label": "",
-              "aria": ""
-            }
-          },
-          {
-            "title": "Affordable Options",
-            "icon": "google",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-              "webp": "",
-              "alt": "Payment and financing options for orthodontic care",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "text": "Affordable, flexible payment options including in‑house financing and credit card acceptance.",
-            "add_button": false,
-            "button": {
-              "button_type": "button",
-              "path": "",
-              "hash": "",
-              "href": "",
-              "label": "",
-              "aria": ""
-            }
-          }
-        ],
-        "button": {
-          "type": "nuxt",
-          "style": "secondary",
-          "label": "",
-          "aria_label": "",
-          "href": "",
-          "path": "",
-          "hash": "",
-          "external": false,
-          "include_icon": false,
-          "icon": "tooth-stars",
-          "color": "black"
-        },
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "media_type": "icon",
-        "linear_gradient": "",
-        "add_cta": false,
-        "left_aligned": false,
-        "large_title": true,
-        "alt_color": true
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
       },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Meet Drs. Sekijima & Wan",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Dr. Robert Sekijima has been practicing orthodontics in the Renton Highlands since 1988. A Bellevue native, he earned his BA and dental degrees from the University of Washington and completed orthodontic specialty training and a Masters in Oral Biology at the University of Missouri. He enjoys hiking, skiing, mission trips, and family time."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Dr. Bill Wan graduated from the University of Washington School of Dentistry and completed specialty training at the University of Colorado, Denver. He brings digital scanning, advanced treatment planning, and aligner therapy to the practice, and is American Board of Orthodontics certified."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/robert-sekijima.jpg",
-          "webp": "",
-          "alt": "Dr. Robert Sekijima, orthodontist at Sekijima Orthodontics",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [
-          {
-            "button": {
-              "type": "nuxt",
-              "style": "secondary",
-              "label": "Meet Our Doctors",
-              "aria_label": "Learn about our doctors",
-              "href": "",
-              "path": "/about",
-              "hash": "#meet-the-doctors",
-              "external": false,
-              "include_icon": false,
-              "icon": "tooth-two-v1",
-              "color": "black"
-            }
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": false,
-        "has_buttons": true,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": true,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": true,
-        "title_color": "text",
-        "title_underline_color": "primary"
-      },
-      {
-        "acf_fc_layout": "block_masonary_grid",
-        "title": "Treatment options",
-        "paragraphs": [
-          {
-            "text": "We offer a full range of orthodontic services — traditional braces, expanders, specialty appliances, and aligner therapy — tailored to patients of all ages."
-          }
-        ],
-        "button": {
-          "type": "nuxt",
-          "style": "secondary",
-          "label": "Learn More",
-          "aria_label": "Learn more about our treatments",
-          "href": "",
-          "path": "/treatments",
-          "hash": "",
-          "external": false,
-          "include_icon": false,
-          "icon": "tooth-outline",
-          "color": "black"
-        },
-        "links": true,
-        "columns": 4,
-        "items": [
-          {
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-              "webp": "",
-              "alt": "Traditional braces and orthodontic appliances",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "title": "Braces",
-            "path": "/treatments",
-            "hash": "#braces"
-          },
-          {
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-              "webp": "",
-              "alt": "Palatal expanders and jaw development appliances",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "title": "Expanders",
-            "path": "/treatments",
-            "hash": "#expanders"
-          },
-          {
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-              "webp": "",
-              "alt": "Space maintainers and specialty appliances",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "title": "Space Maintainers",
-            "path": "/treatments",
-            "hash": "#space-maintainers"
-          },
-          {
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-              "webp": "",
-              "alt": "Aligner therapy including Invisalign-style clear aligners",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "title": "Aligner Therapy",
-            "path": "/treatments",
-            "hash": "#aligner-therapy"
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "linear_gradient": "",
-        "reverse_row": false
-      },
-      {
-        "acf_fc_layout": "multi_use_banner",
-        "title": "Like / follow us online",
-        "content_block": "social_block",
-        "text": "",
-        "social_links": [
-          {
-            "href": "https://www.facebook.com/Sekijimaorthodontics1",
-            "icon": "facebook"
-          }
-        ],
-        "email": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "",
-          "aria_label": "",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
-          "include_icon": false,
-          "icon": "",
-          "color": ""
-        },
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "background_type": "has_image",
-        "background": "bg2",
-        "add_texture": false,
-        "linear_gradient": "",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/facebook.png",
-          "webp": "",
-          "alt": "Like us on Facebook",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "reversed": false,
-        "centered": false,
-        "large_title": false,
-        "text_color": "white"
-      },
-      {
-        "acf_fc_layout": "multi_use_banner",
-        "title": "Ready to get started?",
-        "content_block": "text_block",
-        "text": "",
-        "social_links": [],
-        "email": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "Schedule Appointment",
-          "aria_label": "Schedule an appointment",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
-          "include_icon": false,
-          "icon": "",
-          "color": ""
-        },
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "background_type": "has_background",
-        "background": "bg2",
-        "add_texture": false,
-        "linear_gradient": "",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/schedule-appointment.jpg",
-          "webp": "",
-          "alt": "Schedule an appointment visual",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "reversed": false,
-        "centered": true,
-        "large_title": true,
-        "text_color": "primary"
-      },
-      {
-        "seo": {
-          "page_title": "Home - Sekijima Orthodontics",
-          "page_description": "Sekijima Orthodontics in Renton, WA offers patient-focused orthodontic care — braces, expanders, space maintainers, and aligner therapy with flexible scheduling",
-          "page_keywords": "orthodontist, Renton, braces, aligners, expanders, Sekijima",
-          "additional_settings": false,
-          "social_meta": {
-            "og_meta": {
-              "title": "Home - Sekijima Orthodontics",
-              "description": "Sekijima Orthodontics in Renton, WA offers patient-focused orthodontic care — braces, expanders, space maintainers, and aligner therapy with flexible scheduling",
-              "image": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg"
-            }
-          }
-        }
-      }
-    ],
-    "About": [
-      {
-        "acf_fc_layout": "hero",
-        "title": "About Sekijima Orthodontics",
-        "text": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "",
-          "aria_label": "",
-          "href": "",
-          "path": "",
-          "hash": "",
-          "external": false,
-          "include_icon": false,
-          "icon": "pencil",
-          "color": "black"
-        },
-        "media_type": "image",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg",
-          "webp": "",
-          "alt": "Our Office Building",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "src": "",
-          "webm": "",
-          "title": ""
-        },
-        "small": false
-      },
-      {
-        "acf_fc_layout": "block_text_simple",
-        "title": "Our Mission",
-        "paragraphs": [
-          {
-            "text": "Open communication and patient education are central to our care — we make sure parents and patients understand treatment options and expected outcomes."
-          },
-          {
-            "text": "We value honesty and integrity, treat each person with respect, and work to create beautiful, healthy smiles for patients of all ages."
-          },
-          {
-            "text": "Free initial consultation and personalized treatment planning to help you choose the best path forward for your smile."
-          },
-          {
-            "text": "Gentle, evidence-based orthodontic care with emphasis on patient comfort and clear communication throughout treatment."
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "large_title": true,
-        "center_title": false,
-        "one_column": false,
-        "add_texture": false,
-        "background": "bg1",
-        "linear_gradient": ""
-      },
-      {
-        "acf_fc_layout": "tabs",
-        "title": "Meet Drs. Sekijima & Wan",
-        "paragraphs": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/robert-sekijima.jpg",
-          "webp": "",
-          "alt": "Dr. Robert Sekijima",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "has_buttons": false,
-        "buttons": [],
-        "tabs": [
-          {
-            "header": "Dr. Robert Sekijima",
-            "paragraphs": [
-              {
-                "text": "Dr. Sekijima has been practicing orthodontics in the Renton Highlands since 1988. He earned his Bachelor of Arts and Dental degrees from the University of Washington and received his Orthodontic specialty training at the University of Missouri where he also earned a Masters in Oral Biology."
-              },
-              {
-                "text": "A longtime practice owner and community-minded clinician, Dr. Sekijima has taken biannual mission trips to Central America and Southeast Asia since 2005. He and his team bring decades of experience and a patient-first approach to every treatment plan."
-              }
-            ],
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/robert-sekijima.jpg",
-              "webp": "",
-              "alt": "Dr. Robert Sekijima",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "header": "Dr. Bill Wan",
-            "paragraphs": [
-              {
-                "text": "Dr. Bill Wan joined Sekijima Orthodontics bringing digital scanning, aligner therapy (Invisalign<sup>®</sup>), and contemporary treatment planning. He graduated from the University of Washington School of Dentistry and completed specialty training at the University of Colorado, Denver."
-              },
-              {
-                "text": "As an American Board of Orthodontics certified orthodontist, Dr. Wan is committed to high-quality, patient-centered care and modern treatment workflows that improve comfort and outcomes."
-              }
-            ],
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/bill-wan.jpg",
-              "webp": "",
-              "alt": "Dr. Bill Wan",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          }
-        ],
-        "component_options": {
-          "hash": "meet-the-doctors",
-          "component_padding": "full",
-          "component_margins": "half",
-          "hide_component": false
-        },
-        "has_background": true,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "reverse": false,
-        "is_dynamic": false,
-        "large_title": false,
-        "large_image": false,
-        "title_alt": true
-      },
-      {
-        "acf_fc_layout": "block_grid",
-        "title": "Meet the Team",
-        "items": [
-          {
-            "name": "Dr. Robert Sekijima",
-            "position": "Orthodontist",
-            "bio": "Longtime practice owner. UW & Univ. of Missouri trained. Leads mission trips and brings decades of clinical experience to every patient.",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/robert-sekijima.jpg",
-              "webp": "",
-              "alt": "Dr. Robert Sekijima",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "name": "Dr. Bill Wan",
-            "position": "Orthodontist",
-            "bio": "Board-certified; brings digital scanning and aligner therapy to the practice with a focus on efficient, patient-friendly care.",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/bill-wan.jpg",
-              "webp": "",
-              "alt": "Dr. Bill Wan",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "name": "Briana",
-            "position": "Front Desk",
-            "bio": "Front desk team member; patient since childhood and part of the office team since 2018 — she helps make every visit welcoming.",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/briana.jpg",
-              "webp": "",
-              "alt": "Briana, Front Desk",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "name": "Dawn",
-            "position": "Dental Assistant / Lab",
-            "bio": "Dental assistant for many years; assists chairside and supports laboratory work to keep treatment moving smoothly.",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/dawn-tingvall.jpg",
-              "webp": "",
-              "alt": "Dawn, Dental Assistant",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "name": "Kelly",
-            "position": "Dental Assistant",
-            "bio": "With 20 years in the dental field, Kelly has assisted Dr. Sekijima for eight years and brings experienced, steady care to every patient.",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/kelly.jpg",
-              "webp": "",
-              "alt": "Kelly, Dental Assistant",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "name": "Tonia",
-            "position": "Lab / Treatment Coordinator",
-            "bio": "A longtime team member (with the practice for 33 years), Tonia fills multiple roles and truly feels like family to our patients.",
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/tonia-jones.jpg",
-              "webp": "",
-              "alt": "Tonia, Lab and Treatment Coordinator",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            }
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "full",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "has_bio": true,
-        "large_title": false,
-        "center_title": false,
-        "background": "bg1",
-        "add_texture": false,
-        "linear_gradient": "",
-        "preserve_image": true
-      },
-      {
-        "acf_fc_layout": "single_image_slider",
-        "title": "Office Photo Tour",
-        "carousel_aria": "Office Photo Tour",
-        "slides": [
-          {
-            "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/our-office.jpg",
-            "webp": "",
-            "alt": "Our office interior and patient care area",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "#eef6f8"
-          },
-          {
-            "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/our-staff.jpg",
-            "webp": "",
-            "alt": "Our staff smiling together",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "#eef6f8"
-          },
-          {
-            "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg",
-            "webp": "",
-            "alt": "Sekijima Orthodontics exterior building",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "#eef6f8"
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "background": "bg2",
-        "add_texture": false,
-        "linear_gradient": "",
-        "primary_color": true,
-        "preserve_image": true
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Community & Mission Work",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Since 2005 Dr. Sekijima and team members have taken biannual mission trips to Central America and Southeast Asia, providing care and support abroad. This service work reflects the practice’s long-standing commitment to helping communities beyond our local area."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/robert-sekijima.jpg",
-          "webp": "",
-          "alt": "Dr. Robert Sekijima",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": true,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "multi_use_banner",
-        "title": "Ready to get started?",
-        "content_block": "text_block",
-        "text": "",
-        "social_links": [],
-        "email": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "Schedule Appointment",
-          "aria_label": "Schedule an appointment",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
-          "include_icon": false,
-          "icon": "",
-          "color": ""
-        },
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "background_type": "has_background",
-        "background": "bg2",
-        "add_texture": false,
-        "linear_gradient": "",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/schedule-appointment.jpg",
-          "webp": "",
-          "alt": "Schedule an appointment visual",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "reversed": false,
-        "centered": true,
-        "large_title": true,
-        "text_color": "primary"
-      },
-      {
-        "seo": {
-          "page_title": "About Sekijima Orthodontics",
-          "page_description": "Learn about Sekijima Orthodontics' experienced team, patient-focused mission, and free initial consultation in Renton Highlands.",
-          "page_keywords": "Sekijima Orthodontics, orthodontist, Renton Highlands, Invisalign, braces, orthodontic care, orthodontic team",
-          "additional_settings": false,
-          "social_meta": {
-            "og_meta": {
-              "title": "About Sekijima Orthodontics",
-              "description": "Meet our doctors and team — delivering patient-focused orthodontic care and community service since 1988.",
-              "image": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg"
-            }
-          }
-        }
-      }
-    ],
-    "Get Started": [
-      {
-        "acf_fc_layout": "hero",
-        "title": "New Patients — Get Started",
-        "text": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "",
-          "aria_label": "",
-          "href": "",
-          "path": "",
-          "hash": "",
-          "external": false,
-          "include_icon": false,
-          "icon": "tooth-two-v2",
-          "color": "black"
-        },
-        "media_type": "image",
-        "image": {
-          "src": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.jpg",
-          "webp": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.webp",
-          "alt": "Smiling family welcomed at Lakeshore Orthodontics front desk",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "src": "",
-          "webm": "",
-          "title": ""
-        },
-        "small": false
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Your First Visit",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "There is never a charge for your initial consultation. The initial consultation includes a comprehensive examination, a panorex x‑ray, review of the clinical diagnosis, and a detailed discussion by Dr. Sekijima of your treatment options with the benefits of each. Dr. Sekijima will also estimate treatment time, costs, and type of braces or other orthodontic appliances. For your convenience, if treatment is indicated, diagnostic records can often be taken on the same day. These records include digital facial and dental photos, digital x‑rays, and plaster study models. The appointment to place appliances (expander, headgear, space maintainer, or braces) usually takes 30–90 minutes. You will then be seen at intervals 1–8 weeks apart for adjustments (10–20 minutes)."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Bring completed patient forms (PDFs available below), bring your insurance information if applicable, and expect records (photos/x‑rays) and a treatment discussion during your visit."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
-          "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
-          "alt": "Father with daughter at reception of dentist's surgery",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": false,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": true,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "block_text_simple",
-        "title": "Finance & Insurance",
-        "paragraphs": [
-          {
-            "text": "If your insurance covers orthodontic treatment, you will receive reduced personal costs. Most policies have a lifetime maximum orthodontic benefit different from regular dental insurance. Policies vary; the practice will review your insurance and help determine benefits. If insurance requires verification of continuing treatment, the office will notify them; sometimes forms will be sent to you to sign and return. If benefits change during treatment, the financially responsible party is accountable for charges."
-          },
-          {
-            "text": "Treatment cost depends on complexity and length. The practice offers flexible payment options: an in‑house financing plan with an interest‑free monthly payment schedule after a down payment, acceptance of Visa/MasterCard, handling of medical savings/flex plans, and a cash pre‑payment discount."
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "large_title": false,
-        "center_title": false,
-        "one_column": false,
-        "add_texture": false,
-        "background": "bg2",
-        "linear_gradient": ""
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Health History & New Patient Forms",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Please download and print the forms below and bring them to your first visit (PDFs provided). The office currently uses downloadable PDF intake forms — there are no online submission endpoints listed on the site files provided."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "https://d25xczrsvvsqdg.cloudfront.net/truly-yours-orthodontics-patient-info-first-6.jpg",
-          "webp": "https://d25xczrsvvsqdg.cloudfront.net/truly-yours-orthodontics-patient-info-first-6.webp",
-          "alt": "Patient filling out orthodontic health history forms online",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [
-          {
-            "button": {
-              "type": "anchor",
-              "style": "secondary",
-              "label": "Medical History Form (PDF)",
-              "aria_label": "medical history form pdf",
-              "href": "http://www.sekijimaorthodontics.com/system/application/assets/forms/medical_history_form.pdf",
-              "path": "",
-              "hash": "",
-              "external": true,
-              "include_icon": false,
-              "icon": "envelope",
-              "color": "black"
-            }
-          },
-          {
-            "button": {
-              "type": "anchor",
-              "style": "secondary",
-              "label": "New Patient Form (PDF)",
-              "aria_label": "new patient form pdf",
-              "href": "http://www.sekijimaorthodontics.com/system/application/assets/forms/new_patient_form.pdf",
-              "path": "",
-              "hash": "",
-              "external": true,
-              "include_icon": false,
-              "icon": "envelope",
-              "color": "black"
-            }
-          },
-          {
-            "button": {
-              "type": "anchor",
-              "style": "secondary",
-              "label": "Referral Form (PDF)",
-              "aria_label": "referral form pdf",
-              "href": "http://sekijimaorthodontics.com/RSO-referral-pad.pdf",
-              "path": "",
-              "hash": "",
-              "external": true,
-              "include_icon": false,
-              "icon": "envelope",
-              "color": "black"
-            }
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": true,
-        "has_buttons": true,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "multi_use_banner",
-        "title": "Ready to get started?",
-        "content_block": "text_block",
-        "text": "",
-        "social_links": [],
-        "email": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "Schedule Appointment",
-          "aria_label": "Schedule an appointment",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
-          "include_icon": false,
-          "icon": "",
-          "color": ""
-        },
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "background_type": "has_background",
-        "background": "bg2",
-        "add_texture": false,
-        "linear_gradient": "",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/schedule-appointment.jpg",
-          "webp": "",
-          "alt": "Schedule an appointment visual",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "reversed": false,
-        "centered": true,
-        "large_title": true,
-        "text_color": "primary"
-      },
-      {
-        "seo": {
-          "page_title": "Get Started | Sekijima Orthodontics",
-          "page_description": "Start your journey to a confident smile with Sekijima Orthodontics. Learn what to expect on your first visit, download new‑patient forms, and schedule a consult",
-          "page_keywords": "orthodontics, first visit, new patient forms, financing, Sekijima Orthodontics",
-          "additional_settings": false,
-          "social_meta": {
-            "og_meta": {
-              "title": "Get Started | Sekijima Orthodontics",
-              "description": "Start your journey to a confident smile with Sekijima Orthodontics. Learn what to expect on your first visit, download new‑patient forms, and schedule a consult",
-              "image": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.jpg"
-            }
-          }
-        }
-      }
-    ],
-    "Treatments": [
-      {
-        "acf_fc_layout": "hero",
-        "title": "Treatments",
-        "text": "",
-        "button": {
-          "type": "custom",
-          "style": "primary",
-          "label": "",
-          "aria_label": "",
-          "href": "",
-          "path": "",
-          "hash": "",
-          "external": false,
-          "include_icon": false,
-          "icon": "pencil",
-          "color": "black"
-        },
-        "media_type": "image",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg",
-          "webp": "",
-          "alt": "Exterior of Sekijima Orthodontics office building",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "src": "",
-          "webm": "",
-          "title": ""
-        },
-        "small": false
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Early (Interceptive) Treatment",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "By age 7 many children have a mix of baby and permanent teeth and subtle problems with jaw growth or tooth eruption can be identified. Early detection lets the orthodontist guide jaw growth, reduce trauma risk to protruded front teeth, correct harmful oral habits, and guide permanent teeth into more favorable positions. Early treatment can sometimes prevent more complex problems later or shorten later treatment."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Key benefits include guiding jaw growth and facial development, lowering the risk of trauma to front teeth, correcting habits like thumb‑sucking or abnormal swallowing, and helping permanent teeth erupt into better positions."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/space_maintainer.jpg",
-          "webp": "",
-          "alt": "Space maintainer (lingual arch) appliance used in early treatment",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "early-interceptive-treatment",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": false,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Treatment for Adults",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Orthodontic treatment is a viable option for almost any adult. It can restore function, improve bite and appearance, and enhance self‑confidence."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Special coordination with your dentist or periodontist may be necessary for complex restorative needs; bone loss can affect the direction and amount of tooth movement and may require additional care. It's never too late to consider orthodontic care."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/our-staff.jpg",
-          "webp": "",
-          "alt": "Sekijima Orthodontics team and patient-friendly office environment",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "treatment-for-adults",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": true,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Braces — How they work & what to expect",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Braces are brackets bonded to teeth connected by archwires that apply gentle, controlled forces to move teeth into proper positions. Additional appliances (elastics/rubber bands, headgear, expanders) may be used when needed to correct bite or guide jaw growth."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Good oral hygiene and cooperation—following diet and appliance wear instructions—are key to efficient treatment and optimal results. Typical treatment length is generally 1–3 years depending on case severity and cooperation."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Care tips: brush thoroughly at least twice daily, floss with floss‑threaders, avoid hard or sticky foods (ice, nuts, popcorn, whole apples/carrots) and minimize sugar‑sweetened drinks. If something breaks, contact the office to arrange repairs and save any broken pieces."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/rubber_bands.jpg",
-          "webp": "",
-          "alt": "Elastics and rubber bands used with braces",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "braces-how-they-work",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": false,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": true,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Clear Aligners (Invisalign<sup>®</sup> and other aligner therapy)",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "The practice has incorporated digital scanning, treatment planning, and aligner therapy, including Invisalign<sup>®</sup>, as part of modern treatment offerings. Digital workflows allow customized aligner treatment for appropriate cases."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "If aligners are recommended, the team will explain the process, expected wear schedule, and how aligners fit into an overall treatment plan so you know what to expect at each stage."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-          "webp": "",
-          "alt": "Clear aligners and orthodontic products used in modern aligner therapy",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "clear-aligners-invisalign-and-other-aligner-therapy",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": true,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Orthognathic (Corrective Jaw) Surgery — when it's needed",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "A severe jaw growth discrepancy may require coordinated orthodontics and corrective jaw surgery once facial growth is complete, although this is relatively rare. For some jaw joint or muscle complaints (TMJ pain, bruxism) an orthodontist can help diagnose the problem and advise on next steps."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Your orthodontist will discuss timing, goals, and any needed surgical referrals as part of comprehensive care, coordinating closely with surgeons when surgery is recommended."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/schedule-appointment.jpg",
-          "webp": "",
-          "alt": "Orthodontic consultation and coordinated surgical planning",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "orthognathic-corrective-jaw-surgery",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": false,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": true,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Retainers — keeping your smile in place",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "After braces or aligner treatment, retainers are needed to stabilize teeth until bone and gums adapt. For the first year retainers are typically worn full‑time except for eating and brushing; many patients then transition to night‑time wear for long‑term maintenance."
-          },
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "We offer both removable and fixed options and provide guidance on proper retainer care and follow‑up so your results last."
-          }
-        ],
-        "accordion": [],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/medical-forms.jpg",
-          "webp": "",
-          "alt": "Retainer lab work and patient resources",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "retainers-keeping-your-smile-in-place",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": true,
-        "has_buttons": false,
-        "has_accordion": false,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "image_text",
-        "title": "Technology & Records",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "We maintain comprehensive digital records—facial and dental photos, digital x‑rays, and study models—to support accurate diagnosis and treatment planning. These records help track progress and communicate goals at every stage."
-          }
-        ],
-        "accordion": [
-          {
-            "header": "Digital Records",
-            "paragraphs": [
-              {
-                "text": "We take digital facial and dental photos, digital x‑rays, and study models to create a complete record used for diagnosis and custom treatment planning."
-              }
-            ],
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-              "webp": "",
-              "alt": "Digital records and orthodontic imaging tools",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "header": "Digital Scanning & 3D Treatment Planning",
-            "paragraphs": [
-              {
-                "text": "Digital scanning and 3D planning enable precise aligner workflows and more predictable outcomes, allowing us to simulate stages of tooth movement and improve communication about treatment objectives."
-              }
-            ],
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg",
-              "webp": "",
-              "alt": "Digital scanning and 3D planning workflow",
-              "image_selection_hints": null
-            }
-          },
-          {
-            "header": "Appliances & Lab Work",
-            "paragraphs": [
-              {
-                "text": "We use a variety of appliances—expanders, space maintainers, elastics, and custom lab work for retainers and appliances—when indicated. Appliance care instructions are provided with each device."
-              }
-            ],
-            "image": {
-              "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/rubber_bands.jpg",
-              "webp": "",
-              "alt": "Orthodontic appliances and lab-fabricated devices",
-              "image_selection_hints": null
-            }
-          }
-        ],
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/orthodontic-products.jpg",
-          "webp": "",
-          "alt": "Modern digital orthodontic technology in the clinic",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "type": "embedded",
-          "src": ""
-        },
-        "buttons": [],
-        "component_options": {
-          "hash": "technology-records",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "reverse": false,
-        "has_buttons": false,
-        "has_accordion": true,
-        "is_dynamic": false,
-        "use_video": false,
-        "large_image": false,
-        "has_background": false,
-        "background": "bg1",
-        "linear_gradient": "",
-        "add_texture": false,
-        "large_title": false,
-        "title_color": "text",
-        "title_underline_color": "none"
-      },
-      {
-        "acf_fc_layout": "multi_use_banner",
-        "title": "Ready to get started?",
-        "content_block": "text_block",
-        "text": "",
-        "social_links": [],
-        "email": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "Schedule Appointment",
-          "aria_label": "Schedule an appointment",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
-          "include_icon": false,
-          "icon": "",
-          "color": ""
-        },
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "background_type": "has_background",
-        "background": "bg2",
-        "add_texture": false,
-        "linear_gradient": "",
-        "image": {
-          "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/schedule-appointment.jpg",
-          "webp": "",
-          "alt": "Schedule an appointment visual",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "reversed": false,
-        "centered": true,
-        "large_title": true,
-        "text_color": "primary"
-      },
-      {
-        "seo": {
-          "page_title": "Treatments | Sekijima Orthodontics",
-          "page_description": "Explore Sekijima Orthodontics' treatments for kids, teens, and adults — early interceptive care, braces, clear aligners, retainers, and orthognathic surgery.",
-          "page_keywords": "orthodontic treatments, braces, clear aligners, Invisalign, early treatment, retainers, orthognathic surgery",
-          "additional_settings": false,
-          "social_meta": {
-            "og_meta": {
-              "title": "Treatments | Sekijima Orthodontics",
-              "description": "Explore Sekijima Orthodontics' treatments for kids, teens, and adults — early interceptive care, braces, clear aligners, retainers, and orthognathic surgery.",
-              "image": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg"
-            }
-          }
-        }
-      }
-    ],
-    "Contact": [
-      {
-        "acf_fc_layout": "hero",
-        "title": "Contact Us",
-        "text": "",
-        "button": {
-          "type": "nuxt",
-          "style": "primary",
-          "label": "",
-          "aria_label": "",
-          "href": "",
-          "path": "",
-          "hash": "",
-          "external": false,
-          "include_icon": false,
-          "icon": "phone",
-          "color": "black"
-        },
-        "media_type": "image",
-        "image": {
-          "src": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.jpg",
-          "webp": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.webp",
-          "alt": "Bright orthodontic office reception with appointment book and phone",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": {
-            "context_category": "Contact Hero"
-          }
-        },
-        "video": {
-          "src": "",
-          "webm": "",
-          "title": ""
-        },
-        "small": true
-      },
-      {
-        "acf_fc_layout": "map",
-        "title": "View Larger Map / Directions",
-        "component_options": {
-          "hash": "",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "center_title": true,
-        "background": "bg1",
-        "linear_gradient": ""
-      },
-      {
-        "acf_fc_layout": "form",
-        "form": [
-          1025
-        ],
-        "component_options": {
-          "hash": "form",
-          "component_padding": "half",
-          "component_margins": "none",
-          "hide_component": false
-        },
-        "stack": false
-      },
-      {
-        "seo": {
-          "page_title": "Contact Sekijima Orthodontics | Renton Orthodontist",
-          "page_description": "Contact Sekijima Orthodontics in Renton, WA. Call (425) 235-4830 or email drbob@sekijimaorthodontics.com to schedule a free initial consultation.",
-          "page_keywords": "Sekijima Orthodontics contact, orthodontist Renton, orthodontic appointment, new patient forms",
-          "additional_settings": false,
-          "social_meta": {
-            "og_meta": {
-              "title": "Contact Sekijima Orthodontics | Renton Orthodontist",
-              "description": "Schedule your complimentary consultation with Sekijima Orthodontics. New patient forms and directions available online.",
-              "image": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg"
-            }
-          }
-        }
-      }
-    ],
-    "FAQ": [
-      {
-        "acf_fc_layout": "hero",
-        "title": "Frequently Asked Questions",
-        "text": "",
-        "button": {
-          "type": "custom",
-          "style": "primary",
-          "label": "",
-          "aria_label": "",
-          "href": "",
-          "path": "",
-          "hash": "",
-          "external": false,
-          "include_icon": false,
-          "icon": "pencil",
-          "color": "black"
-        },
-        "media_type": "image",
-        "image": {
-          "src": "https://d25xczrsvvsqdg.cloudfront.net/andersonbracesmn-contact-hero.jpg",
-          "webp": "https://d25xczrsvvsqdg.cloudfront.net/andersonbracesmn-contact-hero.webp",
-          "alt": "Patient smiling with orthodontic braces in our Emeryville office",
-          "aria_hidden": false,
-          "bgColor": "",
-          "imageBackground": false,
-          "addLoader": false,
-          "objectPosition": "",
-          "forceAlt": "",
-          "loading_mask": "",
-          "image_selection_hints": null
-        },
-        "video": {
-          "src": "",
-          "webm": "",
-          "title": ""
-        },
-        "small": true
-      },
-      {
-        "acf_fc_layout": "accordion",
-        "title": "FAQ",
-        "paragraphs": [
-          {
-            "has_heading": false,
-            "heading": "",
-            "text": "Find answers to common questions about braces, appliances, scheduling, and downloadable new‑patient forms at Sekijima Orthodontics."
-          }
-        ],
-        "accordion": [
-          {
-            "header": "Is it normal to have discomfort?",
-            "paragraphs": [
-              {
-                "text": "It's normal to have discomfort for three to five days after braces or retainers are adjusted. Although temporary, it can make eating uncomfortable. Encourage soft foods, rinse with warm salt water, and over‑the‑counter pain relievers such as acetaminophen or ibuprofen may help."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.webp",
-              "alt": "Happy Family Portrait",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "How do I take care of my braces?",
-            "paragraphs": [
-              {
-                "text": "Extra time is needed for brushing to get around brackets and wires. Specialized brushes and floss‑threaders help remove plaque. Vigorously brush at least twice daily until teeth are spotlessly clean to avoid inflamed gums, decalcification, bad breath, or tooth decay."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.webp",
-              "alt": "Couple Enjoying Time Together",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "What foods should I avoid?",
-            "paragraphs": [
-              {
-                "text": "Avoid hard or sticky items such as ice, nuts, popcorn kernels, hard candy (Starburst, Skittles, Jolly Ranchers), caramel, jerky, whole apples/carrots (cut them), hard bread crusts, and avoid chewing pens/pencils/fingernails. You may chew sugarless gum. Minimize sugary drinks and snacks."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.webp",
-              "alt": "Collaborative Team Spirit Moment",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "What happens if something breaks?",
-            "paragraphs": [
-              {
-                "text": "If any portion of an appliance breaks, call the office so arrangements can be made for repairs. Try to save broken pieces and bring them with you when possible so we can evaluate and fix the issue quickly."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.webp",
-              "alt": "Smiling Man Working at Desk",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "Can I play sports while wearing braces?",
-            "paragraphs": [
-              {
-                "text": "Yes — a protective mouth guard is advised for contact sports. Our office can supply a mouth guard; avoid boil‑and‑bite guards if advised otherwise. A guard protects your lips, cheeks, and appliance during impact."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.webp",
-              "alt": "Mother and Daughter Smiling Together",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "Will braces interfere with playing musical instruments?",
-            "paragraphs": [
-              {
-                "text": "Wind and brass instruments may require an adjustment period, but with practice most musicians adapt and continue to play effectively. If needed, we can suggest techniques to reduce discomfort while you adjust."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-hero.webp",
-              "alt": "Happy Family Portrait",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "Are there less noticeable braces?",
-            "paragraphs": [
-              {
-                "text": "Yes. Today's brackets are smaller and clear brackets are an option to reduce visibility. Clear or ceramic brackets and discreet treatment options can make orthodontic care less noticeable."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-contact-hero.webp",
-              "alt": "Couple Enjoying Time Together",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "Am I too old for braces?",
-            "paragraphs": [
-              {
-                "text": "Orthodontic treatment is a viable option for most adults. Many adults choose treatment to improve function and appearance. In some cases special periodontal or dental care may be necessary — we'll review this at your consultation."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.webp",
-              "alt": "Collaborative Team Spirit Moment",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          },
-          {
-            "header": "How can I schedule an appointment?",
-            "paragraphs": [
-              {
-                "text": "Scheduling is easy — call us at (425) 235‑4830 or visit our online appointments page. We’ll find a convenient time that fits your family’s needs and provide instructions for new‑patient forms."
-              }
-            ],
-            "has_media": false,
-            "media_type": "image",
-            "image": {
-              "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.jpg",
-              "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.webp",
-              "alt": "Smiling Man Working at Desk",
-              "aria_hidden": false,
-              "bgColor": "",
-              "imageBackground": false,
-              "addLoader": false,
-              "objectPosition": "",
-              "forceAlt": "",
-              "loading_mask": "",
-              "image_selection_hints": null
-            },
-            "video": {
-              "type": "embedded",
-              "src": ""
-            }
-          }
-        ],
-        "component_options": {
-          "hash": "",
-          "component_padding": "full",
-          "component_margins": "full",
-          "hide_component": false
-        }
-      },
-      {
-        "seo": {
-          "page_title": "FAQ | Sekijima Orthodontics",
-          "page_description": "Answers to common questions about braces, appliances, scheduling, and new patient forms at Sekijima Orthodontics.",
-          "page_keywords": "orthodontics, braces, retainers, FAQ, Sekijima Orthodontics",
-          "additional_settings": false,
-          "social_meta": {
-            "og_meta": {
-              "title": "FAQ | Sekijima Orthodontics",
-              "description": "Answers to common questions about braces, appliances, scheduling, and new patient forms at Sekijima Orthodontics.",
-              "image": ""
-            }
-          }
-        }
-      }
-    ]
-  },
-  "sitemap_metadata": {
-    "Home": {
-      "depth": 0,
-      "slug": "home"
+      "small": false
     },
-    "About": {
-      "depth": 0,
-      "slug": "about"
-    },
-    "Get Started": {
-      "depth": 0,
-      "slug": "get-started"
-    },
-    "Treatments": {
-      "depth": 0,
-      "slug": "treatments"
-    },
-    "Contact": {
-      "depth": 0,
-      "slug": "contact"
-    },
-    "FAQ": {
-      "depth": 0,
-      "slug": "faq"
-    }
-  },
-  "globalData": {
-    "enable_development_mode": false,
-    "company_name": "Sekijima Orthodontics",
-    "domain": "sekijimaorthodontics.com",
-    "email": "drbob@sekijimaorthodontics.com",
-    "phone": {
-      "number": "(425) 235-4830",
-      "href": "tel:+14252354830",
-      "aria": "4 2 5, 2 3 5, 4 8 3 0"
-    },
-    "location": [
-      {
-        "title": "",
-        "address": {
-          "street": "1620 Duvall Ave NE",
-          "suite": "Suite B",
-          "city_state": "Renton, WA 98059",
-          "coordinates": {
-            "longitude": "-122.155779",
-            "latitude": "47.506681"
-          }
-        },
-        "phone": {
-          "number": "(425) 235-4830",
-          "href": "tel:+14252354830"
-        },
-        "email": "drbob@sekijimaorthodontics.com",
-        "hours": [
-          {
-            "day": "Mon",
-            "time": "9:00am - 5:00pm"
-          },
-          {
-            "day": "Tues",
-            "time": "9:00am - 5:00pm"
-          },
-          {
-            "day": "Wed",
-            "time": "9:00am - 1:00pm"
-          },
-          {
-            "day": "Thurs",
-            "time": "12:00pm - 5:30pm"
-          },
-          {
-            "day": "Fri",
-            "time": "Closed"
-          },
-          {
-            "day": "Sat",
-            "time": "Closed"
-          },
-          {
-            "day": "Sun",
-            "time": "Closed"
-          }
-        ],
-        "directions_link": {
-          "href": "http://maps.google.com/maps?client=safari&q=1620+Duvall+Ave+NE+Suite+B+Renton,+WA+98059&oe=UTF-8&ie=UTF8&hq=&hnear=1620+Duvall+Ave+NE,+Renton,+Washington+98059&gl=us&vpsrc=0&ll=47.506681,-122.155779&spn=0.00761,0.01929&z=14&iwloc=A&source=embed",
-          "label": "Get Directions"
-        },
-        "special_note": ""
-      }
-    ],
-    "typography": [
-      {
-        "label": "font",
-        "font": "'Open Sans', helvetica, arial, sans-serif"
-      },
-      {
-        "label": "font-title",
-        "font": "'Archivo', sans-serif"
-      }
-    ],
-    "top_bar": {
-      "enable_top_bar": true,
-      "type": "links",
-      "theme": "light",
-      "content_alignment": "right",
-      "links": [
+    {
+      "acf_fc_layout": "block_text_fh",
+      "title": "DeFelice Orthodontics",
+      "paragraphs": [
         {
-          "icon": "google",
-          "text": "1620 Duvall Ave NE Suite B, Renton, WA 98059",
-          "href": "http://maps.google.com/maps?client=safari&q=1620+Duvall+Ave+NE+Suite+B+Renton,+WA+98059&oe=UTF-8&ie=UTF8&hq=&hnear=1620+Duvall+Ave+NE,+Renton,+Washington+98059&gl=us&vpsrc=0&ll=47.506681,-122.155779&spn=0.00761,0.01929&z=14&iwloc=A&source=embed",
-          "label": "View 1620 Duvall Ave NE Suite B, Renton, WA 98059 on Google Maps",
-          "new_window": true
+          "text": "DeFelice Orthodontics is a progressive, friendly orthodontic practice serving Cape May Court House, Hammonton, and West Creek, NJ. Dr. Gregory J. DeFelice and our team provide comprehensive care for children, teens, and adults with treatment plans tailored to each patient."
         },
         {
-          "icon": "phone",
-          "text": "(425) 235-4830",
-          "href": "tel:+14252354830",
-          "label": "Call (425) 235-4830",
-          "new_window": false
+          "text": "We offer modern options like Damon® Smile braces and Spark™ clear aligners, combined with a compassionate, family-focused approach and convenient scheduling across multiple locations."
         }
       ],
-      "announcement": {
-        "icon": "tooth-two-v1",
-        "label": "Open communication with parents and patients",
-        "text": "Free initial consultation and clear treatment explanations — call (425) 235-4830 to schedule.",
-        "mobile_text": "Free consult — call (425) 235-4830",
-        "modal": {
-          "title": "Free Initial Consultation",
-          "text": "There is never a charge for your initial consultation. The consultation includes an exam, diagnostic records when needed, and a discussion of treatment options and costs."
-        }
-      }
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "add_texture": true,
+      "linear_gradient": ""
     },
-    "nav": {
-      "cta_buttons": true,
+    {
+      "acf_fc_layout": "multi_item_row",
+      "title": "Why Choose Us",
+      "items": [
+        {
+          "title": "Comprehensive Care",
+          "icon": "tooth-two-v2",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.webp",
+            "alt": "Orthodontic team consulting with patient",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "Personalized treatment plans for children, adolescents, and adults to meet each patient’s lifestyle and goals.",
+          "add_button": false,
+          "button": {
+            "button_type": "nuxt_link",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        },
+        {
+          "title": "Modern Options",
+          "icon": "tooth-stars",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.webp",
+            "alt": "Spark clear aligners",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "We provide Damon® Smile braces and Spark™ clear aligners so you can choose the look and speed that fit your life.",
+          "add_button": false,
+          "button": {
+            "button_type": "nuxt_link",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        },
+        {
+          "title": "Skilled, Friendly Team",
+          "icon": "tooth-check",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.webp",
+            "alt": "Friendly orthodontic staff ready to help",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "Our highly trained clinical team focuses on comfort and clear communication so every visit is stress-free.",
+          "add_button": false,
+          "button": {
+            "button_type": "nuxt_link",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        },
+        {
+          "title": "Convenient Locations",
+          "icon": "tooth-two-v1",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
+            "alt": "Multiple DeFelice Orthodontics office locations",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "We serve several communities with offices in Cape May Court House, Hammonton, and West Creek for easier access to care.",
+          "add_button": false,
+          "button": {
+            "button_type": "nuxt_link",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        }
+      ],
+      "button": {
+        "type": "nuxt",
+        "style": "secondary",
+        "label": "",
+        "aria_label": "",
+        "href": "",
+        "path": "",
+        "hash": "",
+        "external": false,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "black"
+      },
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "media_type": "image",
+      "linear_gradient": "",
+      "add_cta": false,
+      "left_aligned": false,
+      "large_title": true,
+      "alt_color": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Meet Dr. Gregory J. DeFelice",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Dr. Gregory J. DeFelice leads our practice with a patient-first approach. He and our team combine modern orthodontic techniques with a warm, family-oriented atmosphere to create confident, healthy smiles for patients of all ages."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
+        "webp": "",
+        "alt": "Dr. Gregory J. DeFelice, orthodontist at DeFelice Orthodontics",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "file",
+        "src": ""
+      },
       "buttons": [
         {
           "button": {
             "type": "nuxt",
-            "style": "primary",
-            "label": "Schedule an Appointment",
-            "aria_label": "Schedule an appointment at Sekijima Orthodontics",
+            "style": "secondary",
+            "label": "Meet Dr. DeFelice",
+            "aria_label": "Learn about Dr. DeFelice",
             "href": "",
-            "path": "/appointments",
-            "hash": "",
-            "external": false,
+            "path": "/about",
+            "hash": "#meet-the-doctor",
+            "external": true,
             "include_icon": false,
-            "icon": "tooth-two-v1",
+            "icon": "pencil",
             "color": "black"
           }
         }
       ],
-      "floating": true
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "primary",
+      "preserve_image": true
     },
-    "footer": {
-      "social_media": [
+    {
+      "acf_fc_layout": "block_masonary_grid",
+      "title": "Treatment Options",
+      "paragraphs": [
         {
-          "href": "https://www.facebook.com/Sekijimaorthodontics1",
-          "icon": "facebook"
+          "text": "We offer Damon® Smile braces, Spark™ clear aligners, and comprehensive orthodontic care, plus adjunctive technologies to support efficient, comfortable treatment for patients of all ages."
         }
       ],
-      "add_border": false
+      "button": {
+        "type": "nuxt",
+        "style": "secondary",
+        "label": "Learn More",
+        "aria_label": "Learn more about our treatments",
+        "href": "",
+        "path": "/treatments",
+        "hash": "",
+        "external": true,
+        "include_icon": false,
+        "icon": "tooth-outline",
+        "color": "black"
+      },
+      "links": true,
+      "columns": 4,
+      "items": [
+        {
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
+            "alt": "Spark clear aligners",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "title": "Spark™ Clear Aligners",
+          "path": "/treatments",
+          "hash": "#spark-clear-aligners"
+        },
+        {
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/181602708_Happy_smile_of_young_woman_with_dental_braces.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/181602708_Happy_smile_of_young_woman_with_dental_braces.webp",
+            "alt": "Damon Smile braces",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "title": "Damon® Smile",
+          "path": "/treatments",
+          "hash": "#damon-smile"
+        },
+        {
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.webp",
+            "alt": "Comprehensive orthodontic care for all ages",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "title": "Comprehensive Orthodontic Care",
+          "path": "/treatments",
+          "hash": "#comprehensive-orthodontic-care"
+        },
+        {
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.webp",
+            "alt": "AcceleDent adjunctive technology",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "title": "Accelerated & Adjunctive Technologies",
+          "path": "/treatments",
+          "hash": "#accelerated-adjunctive-technologies"
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "linear_gradient": "",
+      "reverse_row": false
     },
-    "enable_popup": false,
-    "popup": {
-      "title": "Welcome to Sekijima Orthodontics — Renton, WA",
+    {
+      "acf_fc_layout": "multi_use_banner",
+      "title": "Follow Us on Social",
+      "content_block": "social_block",
       "text": "",
+      "social_links": [
+        {
+          "href": "https://www.dvbraces.com/#instagram",
+          "icon": "instagram"
+        },
+        {
+          "href": "https://www.dvbraces.com/#facebook",
+          "icon": "facebook"
+        },
+        {
+          "href": "https://www.dvbraces.com/#tiktok",
+          "icon": "tiktok"
+        }
+      ],
+      "email": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "",
+        "aria_label": "",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "",
+        "color": ""
+      },
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background_type": "has_image",
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
       "image": {
-        "src": "http://www.sekijimaorthodontics.com/system/application/assets/images/static/sekijima_building.jpg",
-        "webp": "",
-        "alt": "Sekijima Orthodontics office building",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/119902799_Young_people_with_gadgets_hanging_out.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/119902799_Young_people_with_gadgets_hanging_out.webp",
+        "alt": "Follow DeFelice Orthodontics on social media",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "reversed": false,
+      "centered": false,
+      "large_title": false,
+      "text_color": "white"
+    },
+    {
+      "acf_fc_layout": "multi_use_banner",
+      "title": "Request an Appointment",
+      "content_block": "text_block",
+      "text": "",
+      "social_links": [],
+      "email": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Request an Appointment",
+        "aria_label": "Request an appointment",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "",
+        "color": ""
+      },
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background_type": "has_background",
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.webp",
+        "alt": "Request an appointment at DeFelice Orthodontics",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "reversed": false,
+      "centered": true,
+      "large_title": true,
+      "text_color": "primary"
+    },
+    {
+      "seo": {
+        "page_title": "Home - DeFelice Orthodontics",
+        "page_description": "DeFelice Orthodontics provides personalized orthodontic care in Cape May Court House, Hammonton, and West Creek, NJ. Damon® Smile, Spark™ aligners, and flexible",
+        "page_keywords": "orthodontics, braces, Spark aligners, Damon Smile, Cape May Court House",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "Home - DeFelice Orthodontics",
+            "description": "DeFelice Orthodontics provides personalized orthodontic care in Cape May Court House, Hammonton, and West Creek, NJ.",
+            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "About": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "About DeFelice Orthodontics",
+      "text": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "",
+        "aria_label": "",
+        "href": "",
+        "path": "",
+        "hash": "",
+        "external": false,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "black"
+      },
+      "media_type": "image",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/316558526_friendly_dentist_woman_treating_beautiful_patient.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/316558526_friendly_dentist_woman_treating_beautiful_patient.webp",
+        "alt": "DeFelice Orthodontics team and office",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2318,9 +525,1388 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Contact Hero"
+          "context_category": "About Hero"
+        }
+      },
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
+      },
+      "small": false
+    },
+    {
+      "acf_fc_layout": "block_text_simple",
+      "title": "Our Mission",
+      "paragraphs": [
+        {
+          "text": "Our mission is to provide compassionate, high-quality orthodontic care that improves smiles and builds confidence for patients of all ages."
+        },
+        {
+          "text": "We emphasize individualized treatment plans, the latest orthodontic technologies, and a friendly, comfortable patient experience tailored to each person’s needs and lifestyle."
+        },
+        {
+          "text": "From Damon® braces to Spark™ clear aligners and accelerated treatment options, we offer modern solutions to fit the way you live."
+        },
+        {
+          "text": "At our Cape May Court House, Hammonton, and West Creek offices, we combine skilled clinical care with a warm team approach so patients feel supported from their first visit through smile completion."
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "large_title": true,
+      "center_title": false,
+      "one_column": false,
+      "add_texture": false,
+      "background": "bg1",
+      "linear_gradient": ""
+    },
+    {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. Gregory J. DeFelice",
+      "paragraphs": [],
+      "image": {
+        "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
+        "webp": "",
+        "alt": "DeFelice Orthodontics treatment room",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Experienced"
+        }
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "Overview",
+          "paragraphs": [
+            {
+              "text": "Dr. Gregory J. DeFelice leads DeFelice Orthodontics and provides comprehensive care for children, teens, and adults across our Cape May Court House, Hammonton, and West Creek locations. He and the team focus on individualized treatment and modern orthodontic techniques to deliver consistent, patient-centered results."
+            },
+            {
+              "text": "Dr. DeFelice and our staff prioritize comfort, clear communication, and treatment plans that fit each patient's lifestyle."
+            }
+          ],
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
+            "webp": "",
+            "alt": "Treatment room at DeFelice Orthodontics",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Experienced"
+            }
+          }
+        },
+        {
+          "header": "Treatments & Philosophy",
+          "paragraphs": [
+            {
+              "text": "We offer a range of options, including Damon® braces, Spark™ clear aligners, and complementary technologies that may help speed treatment when appropriate. Our philosophy centers on creating efficient, comfortable plans that achieve healthy, confident smiles."
+            }
+          ],
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide3.jpg",
+            "webp": "",
+            "alt": "Close-up of orthodontic equipment",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Treatments Hero"
+            }
+          }
+        },
+        {
+          "header": "Locations & Contact",
+          "paragraphs": [
+            {
+              "text": "We serve families at three South Jersey offices: Cape May Court House, Hammonton, and West Creek. For location details and hours visit the location pages on our site."
+            },
+            {
+              "text": "Cape May Court House — https://www.dvbraces.com/cape-may-court-house-location"
+            },
+            {
+              "text": "Hammonton — https://www.dvbraces.com/hammonton-location"
+            },
+            {
+              "text": "West Creek — https://www.dvbraces.com/west-creek-location"
+            }
+          ],
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide4.jpg",
+            "webp": "",
+            "alt": "Front desk and reception at DeFelice Orthodontics",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Contact Hero"
+            }
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "meet-the-doctor",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": false,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "single_image_slider",
+      "title": "Office Photo Tour",
+      "carousel_aria": "Office Tour Carousel",
+      "slides": [
+        {
+          "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
+          "webp": "",
+          "alt": "Office photo 2",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/slideshow/slide3.jpg",
+          "webp": "",
+          "alt": "Office photo 3",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/slideshow/slide4.jpg",
+          "webp": "",
+          "alt": "Office photo 4",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/slideshow/slide5.jpg",
+          "webp": "",
+          "alt": "Office photo 5",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
+      "primary_color": true,
+      "preserve_image": true
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Community Involvement",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "DeFelice Orthodontics is proud to support our South Jersey community. We participate in local school screenings, sponsor community events when possible, and work to make orthodontic care accessible and welcoming to families across Cape May County."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1018383555_A_vibrant_motorcycle_rally_features_a_lineup_of_vi.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1018383555_A_vibrant_motorcycle_rally_features_a_lineup_of_vi.webp",
+        "alt": "Smiling patient sharing time together",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Community"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "multi_use_banner",
+      "title": "Request an Appointment",
+      "content_block": "text_block",
+      "text": "",
+      "social_links": [],
+      "email": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Request an Appointment",
+        "aria_label": "Request an appointment",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "",
+        "color": ""
+      },
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background_type": "has_background",
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.webp",
+        "alt": "Request an appointment at DeFelice Orthodontics",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "reversed": false,
+      "centered": true,
+      "large_title": true,
+      "text_color": "primary"
+    },
+    {
+      "seo": {
+        "page_title": "About Us | DeFelice Orthodontics",
+        "page_description": "Learn about DeFelice Orthodontics in Cape May County, serving Cape May Court House, Hammonton, and West Creek with modern orthodontic care for all ages.",
+        "page_keywords": "DeFelice Orthodontics, orthodontist, Cape May Court House, Hammonton, West Creek, Damon, Spark, braces, clear aligners",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "About Us | DeFelice Orthodontics",
+            "description": "Learn about DeFelice Orthodontics in Cape May County, serving Cape May Court House, Hammonton, and West Creek with modern orthodontic care for all ages.",
+            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+          }
         }
       }
     }
-  }
+  ],
+  "Get Started": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "Get Started",
+      "text": "",
+      "button": {
+        "type": "anchor",
+        "style": "primary",
+        "label": "Request an Appointment",
+        "aria_label": "request appointment",
+        "href": "https://www.dvbraces.com/appointment-request",
+        "path": "",
+        "hash": "",
+        "external": true,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "black"
+      },
+      "media_type": "image",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/285911421_Client_of_private_dentistry_smiling_while_singing.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/285911421_Client_of_private_dentistry_smiling_while_singing.webp",
+        "alt": "Smiling family welcomed at Lakeshore Orthodontics front desk",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
+      },
+      "small": false
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "First Visit",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Your first visit at DeFelice Orthodontics begins with a warm welcome. We review your dental and medical history, take any needed digital X-rays, and perform a careful orthodontic exam so we can explain the treatment options that make the most sense for you."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "During this visit we’ll discuss timelines, estimated costs, and payment options, and answer any questions about braces or clear aligners. You can request an appointment online or choose the office location that’s most convenient for you."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211022837_Portrait_Of_Smiling_Dentist_And_Teenage_Girl_In_Cl.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211022837_Portrait_Of_Smiling_Dentist_And_Teenage_Girl_In_Cl.webp",
+        "alt": "Father with daughter at reception of dentist's surgery",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg2",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": true,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "block_text_simple",
+      "title": "Financing & Insurance",
+      "paragraphs": [
+        {
+          "text": "We accept most major dental insurance plans and will file claims electronically to help you get the maximum benefits available. Our team is here to answer questions and verify coverage before treatment begins."
+        },
+        {
+          "text": "Flexible payment plans and third-party financing are available to make care affordable. Speak with our treatment coordinator to review options and create a payment plan that fits your budget."
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "large_title": false,
+      "center_title": false,
+      "one_column": false,
+      "add_texture": false,
+      "background": "bg2",
+      "linear_gradient": ""
+    },
+    {
+      "acf_fc_layout": "multi_use_banner",
+      "title": "Request an Appointment",
+      "content_block": "text_block",
+      "text": "",
+      "social_links": [],
+      "email": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Request an Appointment",
+        "aria_label": "Request an appointment",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "",
+        "color": ""
+      },
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background_type": "has_background",
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/306422676_Female_visitor_filling_out_medicine_documents.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/306422676_Female_visitor_filling_out_medicine_documents.webp",
+        "alt": "Request an appointment at DeFelice Orthodontics",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "reversed": false,
+      "centered": true,
+      "large_title": true,
+      "text_color": "primary"
+    },
+    {
+      "seo": {
+        "page_title": "Get Started | DeFelice Orthodontics",
+        "page_description": "Start your smile journey with DeFelice Orthodontics. Learn what to expect at your first visit, access forms, and request an appointment online.",
+        "page_keywords": "orthodontics, new patient, forms, appointment, DeFelice Orthodontics",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "Get Started | DeFelice Orthodontics",
+            "description": "Start your smile journey with DeFelice Orthodontics. Learn what to expect at your first visit, access forms, and request an appointment online.",
+            "image": "https://d2jdm9a19iwpm4.cloudfront.net/get-started/get-started-hero-v2.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "Treatments": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "Revolutionary Orthodontic Treatment",
+      "text": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "",
+        "aria_label": "",
+        "href": "",
+        "path": "",
+        "hash": "",
+        "external": false,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "black"
+      },
+      "media_type": "image",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/258026937_Top_view_of_invisalign_braces_or_invisible_retaine.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/258026937_Top_view_of_invisalign_braces_or_invisible_retaine.webp",
+        "alt": "Smiling patients in a modern orthodontic office",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Treatments Hero"
+        }
+      },
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
+      },
+      "small": false
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Pediatric & Early Treatment",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "DeFelice Orthodontics is a progressive, friendly practice committed to comprehensive care for children and teens. Early visits let us spot developing issues and, when appropriate, start gentle treatments that guide jaw growth and make future care simpler."
+        }
+      ],
+      "accordion": [
+        {
+          "header": "Early Intervention",
+          "paragraphs": [
+            {
+              "text": "Starting treatment at the right time can reduce the need for more invasive procedures later. We evaluate growth patterns and bite development, and recommend simple, targeted steps when they will make the biggest long-term difference."
+            }
+          ],
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/141940713_Young_boy_looking_at_the_mirror_with_toothy_smile.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/141940713_Young_boy_looking_at_the_mirror_with_toothy_smile.webp",
+            "alt": "Young patient receiving early orthodontic intervention",
+            "image_selection_hints": {
+              "context_category": "Kid"
+            }
+          }
+        }
+      ],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/262028825_Child_smiling_while_sitting_in_the_dentists_chair.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/262028825_Child_smiling_while_sitting_in_the_dentists_chair.webp",
+        "alt": "Smiling family enjoying time together",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "All Ages"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "pediatric-early-treatment",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": true,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Adult Treatment — Spark™",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Spark™ clear aligners are ideal for adult patients who want to enhance their smile while keeping treatment discreet. These removable aligners let you eat, brush, and floss normally while progressing toward a confident smile."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024688_Woman_Wearing_Clear_Aligner_In_Dental_Clinic.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024688_Woman_Wearing_Clear_Aligner_In_Dental_Clinic.webp",
+        "alt": "Close-up of clear aligners being placed on teeth",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Adult"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "adult-treatment",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Damon® Smile braces overview",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Damon® Smile braces offer an efficient, low-friction system that helps many patients reach treatment goals with fewer adjustments. They are an excellent choice for teens and adults who want a proven bracket option."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
+        "alt": "Two stylish smiling teens taking selfie with braces",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Teen"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "braces",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": true,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Spark™ clear aligners",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Spark™ aligners use precise digital planning to move teeth predictably. They are comfortable, clear, and designed for adults who want an effective, low-profile option."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Your treatment plan is personalized, and we monitor progress closely so adjustments happen only when needed, keeping visits efficient and focused."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/412396002_Invisalign.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/412396002_Invisalign.webp",
+        "alt": "Close-up of clear aligners being placed on teeth",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Adult"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "anchor",
+            "style": "underline",
+            "label": "Learn about Spark™ Aligners",
+            "aria_label": "learn about spark aligners",
+            "href": "https://www.dvbraces.com/spark-clear-aligners",
+            "path": "",
+            "hash": "",
+            "external": true,
+            "include_icon": false,
+            "icon": "tooth-check",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "spark",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg2",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Orthognathic Surgery",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "For complex jaw discrepancies, we coordinate surgical and orthodontic care with experienced oral and maxillofacial surgeons. This collaborative approach aligns bite, improves function, and enhances facial balance."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "When surgery is recommended, we guide you through each step: pre-surgical orthodontics, the operation, and post-surgical finishing to ensure stable, long-term results."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.webp",
+        "alt": "Orthodontic patient receiving orthognathic surgical consultation",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Surgery"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "orthognathic-surgery",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Retainers",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "After active treatment, custom retainers protect your investment. We offer removable and fixed options and will recommend a wear schedule that fits your lifestyle and long-term goals."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Regular check-ins help us confirm fit and retention. If a retainer is lost or worn, we’ll quickly restore stability so your smile stays where it belongs."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/56159139_hands_holding_retainer_for_teeth_and_tooth_tray.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/56159139_hands_holding_retainer_for_teeth_and_tooth_tray.webp",
+        "alt": "Young woman smiling and holding an orthodontic retainer",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Retainers"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "retainers",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg2",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Advanced Technology",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "We use modern digital tools and proven clinical techniques to make treatment more comfortable, precise, and predictable. Digital planning, clear aligner workflows, and efficient bracket systems help us tailor care to each patient."
+        }
+      ],
+      "accordion": [
+        {
+          "header": "Digital Impressions & Aligner Planning",
+          "paragraphs": [
+            {
+              "text": "Digital scans and computer-guided planning let us design efficient aligner sequences so you see progress from the start."
+            }
+          ],
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/493853958_Dentist_scanning_woman_teeth_with_dental_intraoral.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/493853958_Dentist_scanning_woman_teeth_with_dental_intraoral.webp",
+            "alt": "Digital scanner in use during orthodontic consultation",
+            "image_selection_hints": {
+              "context_category": "Initial Visit"
+            }
+          }
+        },
+        {
+          "header": "Bracket Systems (Damon®)",
+          "paragraphs": [
+            {
+              "text": "Low-friction bracket systems can reduce treatment time and improve comfort for many patients."
+            }
+          ],
+          "image": {
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/default-digital-xrays.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-digital-xrays.webp",
+            "alt": "Orthodontic technology and digital imaging",
+            "image_selection_hints": {
+              "context_category": "Technology"
+            }
+          }
+        },
+        {
+          "header": "Adjunctive Acceleration Devices",
+          "paragraphs": [
+            {
+              "text": "We can combine clinically supported adjuncts, such as in-office or at-home acceleration technologies, when appropriate to help treatment move efficiently."
+            }
+          ],
+          "image": {
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/default-3d-planning.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-3d-planning.webp",
+            "alt": "3D treatment planning software showing orthodontic simulation",
+            "image_selection_hints": {
+              "context_category": "Technology"
+            }
+          }
+        }
+      ],
+      "image": {
+        "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/33367648_dentist_office_interior.jpg",
+        "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/33367648_dentist_office_interior.jpg",
+        "alt": "Modern orthodontic office interior with advanced technology",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Treatments Hero"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "technology",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": true,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "multi_use_banner",
+      "title": "Request an Appointment",
+      "content_block": "text_block",
+      "text": "",
+      "social_links": [],
+      "email": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Request an Appointment",
+        "aria_label": "Request an appointment",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "",
+        "color": ""
+      },
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background_type": "has_background",
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
+      "image": {
+        "src": "https://www.dvbraces.com/assets/images/slideshow/tagline.png",
+        "webp": "",
+        "alt": "Request an appointment at DeFelice Orthodontics",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "reversed": false,
+      "centered": true,
+      "large_title": true,
+      "text_color": "primary"
+    },
+    {
+      "seo": {
+        "page_title": "Treatments | DeFelice Orthodontics",
+        "page_description": "Explore treatment options at DeFelice Orthodontics, including Spark™ aligners, Damon® braces, retainers, and advanced digital workflows.",
+        "page_keywords": "orthodontic treatments, Spark aligners, Damon braces, retainers, orthognathic surgery, digital orthodontics",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "Treatments | DeFelice Orthodontics",
+            "description": "Explore treatment options at DeFelice Orthodontics, including Spark™ aligners, Damon® braces, retainers, and advanced digital workflows.",
+            "image": "https://d2jdm9a19iwpm4.cloudfront.net/treatments/treatments-hero.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "Contact": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "Contact Our Offices",
+      "text": "",
+      "button": {
+        "type": "anchor",
+        "style": "primary",
+        "label": "Request an Appointment",
+        "aria_label": "Request an appointment at DeFelice Orthodontics",
+        "href": "https://www.dvbraces.com/appointment-request",
+        "path": "",
+        "hash": "",
+        "external": true,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "black"
+      },
+      "media_type": "image",
+      "image": {
+        "src": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.jpg",
+        "webp": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.webp",
+        "alt": "Office reception desk with appointment book and phone",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
+      },
+      "small": true
+    },
+    {
+      "acf_fc_layout": "map",
+      "title": "Location & Directions",
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "center_title": true,
+      "background": "bg1",
+      "linear_gradient": ""
+    },
+    {
+      "acf_fc_layout": "form",
+      "form": [
+        1025
+      ],
+      "component_options": {
+        "hash": "form",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "stack": false
+    },
+    {
+      "seo": {
+        "page_title": "Contact DeFelice Orthodontics | Cape May Court House, Hammonton & West Creek, NJ",
+        "page_description": "Reach DeFelice Orthodontics to schedule care at our Cape May Court House, Hammonton, or West Creek offices. Easy online booking and family-focused orthodontic服务",
+        "page_keywords": "DeFelice Orthodontics contact, orthodontist Cape May Court House, Hammonton orthodontist, West Creek NJ orthodontist, appointment request",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "Contact DeFelice Orthodontics | Cape May Court House, Hammonton & West Creek, NJ",
+            "description": "Reach DeFelice Orthodontics to schedule care at our Cape May Court House, Hammonton, or West Creek offices. Easy online booking and family-focused orthodontic服务",
+            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "FAQ": [
+    {
+      "acf_fc_layout": "hero",
+      "title": "Frequently Asked Questions",
+      "text": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "",
+        "aria_label": "",
+        "href": "",
+        "path": "",
+        "hash": "",
+        "external": false,
+        "include_icon": false,
+        "icon": "pencil",
+        "color": "black"
+      },
+      "media_type": "image",
+      "image": {
+        "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
+        "webp": "",
+        "alt": "Patient smiling in a modern orthodontic office reception area",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "FAQ Hero"
+        }
+      },
+      "video": {
+        "src": "",
+        "webm": "",
+        "title": ""
+      },
+      "small": true
+    },
+    {
+      "acf_fc_layout": "accordion",
+      "title": "FAQ",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Find answers to common questions about treatment options, scheduling, and payment at DeFelice Orthodontics. The Smile Engineers are here to help."
+        }
+      ],
+      "accordion": [
+        {
+          "header": "What orthodontic options do you offer?",
+          "paragraphs": [
+            {
+              "text": "We offer a variety of treatment options tailored to each patient. Our practice provides Damon Smile braces and Spark clear aligners, among other solutions. Learn more about Damon Smile at https://www.dvbraces.com/damon-smile-info and Spark aligners at https://www.dvbraces.com/spark-clear-aligners."
+            }
+          ],
+          "has_media": false,
+          "media_type": "image",
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
+            "webp": "",
+            "alt": "Orthodontic treatment discussion between doctor and patient in a bright treatment room",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "FAQ Hero"
+            }
+          },
+          "video": {
+            "type": "embedded",
+            "src": ""
+          }
+        },
+        {
+          "header": "How do I schedule an appointment?",
+          "paragraphs": [
+            {
+              "text": "Requesting an appointment is simple. Use our online form at https://www.dvbraces.com/appointment-request or call the office. We will work with your schedule to find a convenient time for a consultation."
+            }
+          ],
+          "has_media": false,
+          "media_type": "image",
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide3.jpg",
+            "webp": "",
+            "alt": "Reception desk with smiling staff ready to schedule appointments",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "FAQ Hero"
+            }
+          },
+          "video": {
+            "type": "embedded",
+            "src": ""
+          }
+        },
+        {
+          "header": "Where are your offices located?",
+          "paragraphs": [
+            {
+              "text": "We see patients at multiple convenient locations. Visit our location pages to find the office nearest you: Cape May Court House (https://www.dvbraces.com/cape-may-court-house-location), Hammonton (https://www.dvbraces.com/hammonton-location), and West Creek (https://www.dvbraces.com/west-creek-location)."
+            }
+          ],
+          "has_media": false,
+          "media_type": "image",
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide4.jpg",
+            "webp": "",
+            "alt": "Exterior of a modern orthodontic office with clear signage",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "FAQ Hero"
+            }
+          },
+          "video": {
+            "type": "embedded",
+            "src": ""
+          }
+        },
+        {
+          "header": "Why choose DeFelice Orthodontics?",
+          "paragraphs": [
+            {
+              "text": "At the orthodontic office of Dr. DeFelice, your smile is our top priority. Our highly skilled team and our use of modern treatments and technologies give you confidence that you are receiving a high standard of care tailored to your needs."
+            }
+          ],
+          "has_media": false,
+          "media_type": "image",
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
+            "webp": "",
+            "alt": "Smiling orthodontic team standing together in a welcoming office",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "FAQ Hero"
+            }
+          },
+          "video": {
+            "type": "embedded",
+            "src": ""
+          }
+        },
+        {
+          "header": "Still have questions?",
+          "paragraphs": [
+            {
+              "text": "If you have more questions, visit our testimonials page at https://www.dvbraces.com/testimonials, use the chat widget on the site to ask a team member, or request an appointment at https://www.dvbraces.com/appointment-request and we will be happy to help."
+            }
+          ],
+          "has_media": false,
+          "media_type": "image",
+          "image": {
+            "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
+            "webp": "",
+            "alt": "Patient speaking with a staff member at a reception desk",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "FAQ Hero"
+            }
+          },
+          "video": {
+            "type": "embedded",
+            "src": ""
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "full",
+        "component_margins": "full",
+        "hide_component": false
+      }
+    },
+    {
+      "seo": {
+        "page_title": "FAQ | DeFelice Orthodontics",
+        "page_description": "Answers to common questions about orthodontic treatments, scheduling, and financing at DeFelice Orthodontics. Request an appointment online.",
+        "page_keywords": "orthodontics, braces, Spark aligners, Damon Smile, FAQ, DeFelice Orthodontics",
+        "additional_settings": false,
+        "social_meta": {
+          "og_meta": {
+            "title": "FAQ | DeFelice Orthodontics",
+            "description": "Answers to common questions about orthodontic treatments, scheduling, and financing at DeFelice Orthodontics.",
+            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+          }
+        }
+      }
+    }
+  ]
 }
