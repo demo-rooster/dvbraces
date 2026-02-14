@@ -1,58 +1,33 @@
 {
   "enable_development_mode": false,
   "company_name": "DeFelice Orthodontics",
-  "domain": "dvbraces.com",
+  "domain": "www.dvbraces.com",
   "email": "info@dvbraces.com",
   "phone": {
-    "number": "",
-    "href": "",
-    "aria": ""
+    "number": "(609) 270-5410",
+    "href": "tel:+16092705410",
+    "aria": "6 0 9, 2 7 0, 5 4 1 0"
   },
   "location": [
     {
       "title": "Cape May Court House",
       "address": {
-        "street": "",
+        "street": "22 West Pacific Ave",
         "suite": "",
-        "city_state": "Cape May Court House, NJ",
+        "city_state": "Cape May Court House, NJ 08210",
         "coordinates": {
-          "longitude": "",
-          "latitude": ""
+          "longitude": "-74.8272994",
+          "latitude": "39.0770693"
         }
       },
       "phone": {
-        "number": "",
-        "href": ""
+        "number": "(609) 465-5175",
+        "href": "tel:+16094655175"
       },
       "email": "info@dvbraces.com",
-      "hours": [
-        {
-          "day": "Mon",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Tues",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Weds",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Thurs",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Fri",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Sat - Sun",
-          "time": "Closed or by appointment"
-        }
-      ],
+      "hours": [],
       "directions_link": {
-        "href": "https://www.dvbraces.com/cape-may-court-house-location",
+        "href": "https://www.google.com/maps/search/?api=1&query=22+West+Pacific+Ave,+Cape+May+Court+House,+NJ+08210",
         "label": "Get Directions"
       },
       "special_note": ""
@@ -60,95 +35,45 @@
     {
       "title": "Hammonton",
       "address": {
-        "street": "",
-        "suite": "",
-        "city_state": "Hammonton, NJ",
+        "street": "129 N. White Horse Pike",
+        "suite": "Suite 3",
+        "city_state": "Hammonton, NJ 08037",
         "coordinates": {
           "longitude": "",
           "latitude": ""
         }
       },
       "phone": {
-        "number": "",
-        "href": ""
+        "number": "(609) 270-5410",
+        "href": "tel:+16092705410"
       },
       "email": "info@dvbraces.com",
-      "hours": [
-        {
-          "day": "Mon",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Tues",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Weds",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Thurs",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Fri",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Sat - Sun",
-          "time": "Closed or by appointment"
-        }
-      ],
+      "hours": [],
       "directions_link": {
-        "href": "https://www.dvbraces.com/hammonton-location",
+        "href": "https://www.google.com/maps/search/?api=1&query=129+N.+White+Horse+Pike+Suite+3,+Hammonton,+NJ+08037",
         "label": "Get Directions"
       },
       "special_note": ""
     },
     {
-      "title": "West Creek",
+      "title": "West Creek (Cedar Run Orthodontics)",
       "address": {
-        "street": "",
-        "suite": "",
-        "city_state": "West Creek, NJ",
+        "street": "1064 S. Main Street",
+        "suite": "Suite 2A",
+        "city_state": "West Creek, NJ 08092",
         "coordinates": {
           "longitude": "",
           "latitude": ""
         }
       },
       "phone": {
-        "number": "",
-        "href": ""
+        "number": "(609) 978-4411",
+        "href": "tel:+16099784411"
       },
       "email": "info@dvbraces.com",
-      "hours": [
-        {
-          "day": "Mon",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Tues",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Weds",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Thurs",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Fri",
-          "time": "Call for hours"
-        },
-        {
-          "day": "Sat - Sun",
-          "time": "Closed or by appointment"
-        }
-      ],
+      "hours": [],
       "directions_link": {
-        "href": "https://www.dvbraces.com/west-creek-location",
+        "href": "https://www.google.com/maps/search/?api=1&query=1064+S.+Main+Street+Suite+2A,+West+Creek,+NJ+08092",
         "label": "Get Directions"
       },
       "special_note": ""
@@ -165,34 +90,34 @@
     }
   ],
   "top_bar": {
-    "enable_top_bar": true,
+    "enable_top_bar": false,
     "type": "links",
     "theme": "dark",
     "content_alignment": "right",
     "links": [
       {
-        "icon": "google",
-        "text": "Multiple offices — Cape May Court House, Hammonton, West Creek",
-        "href": "https://www.dvbraces.com/sitemap",
-        "label": "View our locations",
+        "icon": "tooth-two-v2",
+        "text": "Hammonton: 129 N. White Horse Pike, Suite 3, Hammonton, NJ",
+        "href": "https://www.google.com/maps/search/?api=1&query=129+N.+White+Horse+Pike+Suite+3,+Hammonton,+NJ+08037",
+        "label": "View 129 N. White Horse Pike Suite 3, Hammonton, NJ 08037 on google maps",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "Request an appointment",
-        "href": "https://www.dvbraces.com/appointment-request",
-        "label": "Request an appointment",
+        "text": "(609) 270-5410",
+        "href": "tel:+16092705410",
+        "label": "Call (609) 270-5410",
         "new_window": false
       }
     ],
     "announcement": {
-      "icon": "tooth-two-v1",
-      "label": "Health & safety updates",
-      "text": "We follow enhanced cleaning protocols and screening to keep patients and staff safe. Call your preferred office or request an appointment online.",
-      "mobile_text": "Health & safety updates",
+      "icon": "tooth-two-v2",
+      "label": "COVID-19 Update",
+      "text": "Click here to learn how we keep patients safe during visits.",
+      "mobile_text": "COVID-19 Update",
       "modal": {
-        "title": "Health & Safety at DeFelice Orthodontics",
-        "text": "<p>We are committed to creating a safe, welcoming environment for patients of all ages. Enhanced infection control, screening procedures, and staggered appointments help reduce contact and increase safety. If you have questions about our protocols, please contact the office directly or request an appointment online.</p>"
+        "title": "COVID-19 Update",
+        "text": "<p>DeFelice Orthodontics follows current public health guidance to keep patients and team members safe. If you have questions about an upcoming appointment or our office policies, please call us.</p>"
       }
     }
   },
@@ -203,37 +128,40 @@
         "button": {
           "type": "nuxt",
           "style": "primary",
-          "label": "Request an Appointment",
-          "aria_label": "request an appointment",
-          "href": "https://www.dvbraces.com/appointment-request",
+          "label": "Schedule Consultation",
+          "aria_label": "Schedule a consultation",
+          "href": "",
           "path": "/appointment-request",
           "hash": "",
-          "external": true,
-          "include_icon": false,
-          "icon": "pencil",
-          "color": "black"
+          "external": false,
+          "include_icon": true,
+          "icon": "tooth-two-v2",
+          "color": "primary"
         }
       }
     ],
-    "floating": true
+    "floating": false
+  },
+  "primary_cta": {
+    "label": "Schedule Consultation",
+    "path": "/contact",
+    "hash": "#form",
+    "external": false,
+    "href": ""
   },
   "footer": {
     "social_media": [
       {
-        "href": "https://www.dvbraces.com/#facebook",
+        "href": "https://www.facebook.com/DeFelice-Vecere-Orthodontics-219850114708710/",
         "icon": "facebook"
       },
       {
-        "href": "https://www.dvbraces.com/#instagram",
-        "icon": "instagram"
+        "href": "https://twitter.com/VecereOrtho",
+        "icon": "twitter"
       },
       {
-        "href": "https://www.dvbraces.com/#yelp",
-        "icon": "yelp"
-      },
-      {
-        "href": "https://www.dvbraces.com/#google",
-        "icon": "google"
+        "href": "https://www.youtube.com/user/VecereOrthodontics",
+        "icon": "youtube"
       }
     ],
     "add_border": false
@@ -243,9 +171,9 @@
     "title": "Welcome to DeFelice Orthodontics",
     "text": "",
     "image": {
-      "src": "https://www.dvbraces.com/assets/images/slideshow/tagline.png",
+      "src": "https://www.dvbraces.com/assets/images/logo.png",
       "webp": "",
-      "alt": "The Smile Engineers — DeFelice Orthodontics",
+      "alt": "DeFelice Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
@@ -253,9 +181,7 @@
       "objectPosition": "",
       "forceAlt": "",
       "loading_mask": "",
-      "image_selection_hints": {
-        "context_category": "About Hero"
-      }
+      "image_selection_hints": null
     }
   }
 }
