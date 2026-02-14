@@ -7,21 +7,21 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "Request an appointment",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
-        "external": true,
+        "external": false,
         "include_icon": false,
         "icon": "pencil",
         "color": "black"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.webp",
-        "alt": "DeFelice Orthodontics team smiling and welcoming patients",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/99326519_Professional_dentist_office.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/99326519_Professional_dentist_office.webp",
+        "alt": "Smiling patient at DeFelice Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -40,13 +40,10 @@
     },
     {
       "acf_fc_layout": "block_text_fh",
-      "title": "DeFelice Orthodontics",
+      "title": "Welcome to DeFelice Orthodontics",
       "paragraphs": [
         {
-          "text": "DeFelice Orthodontics is a progressive, friendly orthodontic practice serving Cape May Court House, Hammonton, and West Creek, NJ. Dr. Gregory J. DeFelice and our team provide comprehensive care for children, teens, and adults with treatment plans tailored to each patient."
-        },
-        {
-          "text": "We offer modern options like Damon® Smile braces and Spark™ clear aligners, combined with a compassionate, family-focused approach and convenient scheduling across multiple locations."
+          "text": "DeFelice Orthodontics is a progressive and friendly orthodontic practice in Cape May Court House, Hammonton and West Creek, NJ, where Dr. Gregory J. DeFelice and our staff are committed to providing comprehensive orthodontic care for children, adolescents, and adults. We offer a wide range of treatment options, completely customized to suit your orthodontic needs and lifestyle. Our highly skilled team and our innovative treatments and technologies will give you the confidence that you are receiving the highest standard of orthodontic care available. At the orthodontic office of Dr. DeFelice, your smile is our top priority — we look forward to helping your family with their orthodontic needs."
         }
       ],
       "component_options": {
@@ -63,12 +60,12 @@
       "title": "Why Choose Us",
       "items": [
         {
-          "title": "Comprehensive Care",
-          "icon": "tooth-two-v2",
+          "title": "Experienced Doctor",
+          "icon": "king-tooth",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.webp",
-            "alt": "Orthodontic team consulting with patient",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/128979149_Portrait_of_female_dentist_Shes_standing_in_her_de.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/128979149_Portrait_of_female_dentist_Shes_standing_in_her_de.webp",
+            "alt": "Experienced orthodontist caring for patient",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -78,10 +75,10 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Personalized treatment plans for children, adolescents, and adults to meet each patient’s lifestyle and goals.",
+          "text": "Dr. Gregory J. DeFelice is a board-certified Diplomate of the American Board of Orthodontics with advanced training and a long-standing commitment to excellence.",
           "add_button": false,
           "button": {
-            "button_type": "nuxt_link",
+            "button_type": "button",
             "path": "",
             "hash": "",
             "href": "",
@@ -90,12 +87,12 @@
           }
         },
         {
-          "title": "Modern Options",
-          "icon": "tooth-stars",
+          "title": "Multiple Locations",
+          "icon": "location-tooth",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.webp",
-            "alt": "Spark clear aligners",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1485277231_Miniature_shop_with_red_location_pins_on_top_macro.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1485277231_Miniature_shop_with_red_location_pins_on_top_macro.webp",
+            "alt": "Multiple convenient locations",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -105,10 +102,10 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "We provide Damon® Smile braces and Spark™ clear aligners so you can choose the look and speed that fit your life.",
+          "text": "Offices in Cape May Court House, Hammonton and West Creek serve South Jersey families with easy access and familiar care.",
           "add_button": false,
           "button": {
-            "button_type": "nuxt_link",
+            "button_type": "button",
             "path": "",
             "hash": "",
             "href": "",
@@ -117,12 +114,12 @@
           }
         },
         {
-          "title": "Skilled, Friendly Team",
-          "icon": "tooth-check",
+          "title": "Advanced Options",
+          "icon": "braces-together",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/191531294_Medical_dentist_team_in_dental_office_discuss_abou.webp",
-            "alt": "Friendly orthodontic staff ready to help",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/105701609_interior_of_new_modern_dental_clinic_office.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/105701609_interior_of_new_modern_dental_clinic_office.webp",
+            "alt": "Modern orthodontic treatment options",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -132,10 +129,10 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "Our highly trained clinical team focuses on comfort and clear communication so every visit is stress-free.",
+          "text": "We offer Damon® Smile braces and Spark™ clear aligners for faster, more comfortable treatment and esthetic adult care.",
           "add_button": false,
           "button": {
-            "button_type": "nuxt_link",
+            "button_type": "button",
             "path": "",
             "hash": "",
             "href": "",
@@ -144,12 +141,12 @@
           }
         },
         {
-          "title": "Convenient Locations",
-          "icon": "tooth-two-v1",
+          "title": "Patient‑First Care",
+          "icon": "people",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
-            "alt": "Multiple DeFelice Orthodontics office locations",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/599165513_Blood_pressure_woman_and_health_check_with_a_smile.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/599165513_Blood_pressure_woman_and_health_check_with_a_smile.webp",
+            "alt": "Friendly patient-focused team",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -159,10 +156,10 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "text": "We serve several communities with offices in Cape May Court House, Hammonton, and West Creek for easier access to care.",
+          "text": "We prioritize relationships, clear communication and up-to-date technology so your experience is comfortable and predictable.",
           "add_button": false,
           "button": {
-            "button_type": "nuxt_link",
+            "button_type": "button",
             "path": "",
             "hash": "",
             "href": "",
@@ -181,7 +178,7 @@
         "hash": "",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "tooth-two-v1",
         "color": "black"
       },
       "component_options": {
@@ -190,7 +187,7 @@
         "component_margins": "none",
         "hide_component": false
       },
-      "media_type": "image",
+      "media_type": "icon",
       "linear_gradient": "",
       "add_cta": false,
       "left_aligned": false,
@@ -204,14 +201,14 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. Gregory J. DeFelice leads our practice with a patient-first approach. He and our team combine modern orthodontic techniques with a warm, family-oriented atmosphere to create confident, healthy smiles for patients of all ages."
+          "text": "Gregory J. DeFelice, DMD, MS, is a board-certified orthodontist and Diplomate of the American Board of Orthodontics. He completed his DMD at Temple University and earned his master’s degree and orthodontic specialty training at the University of Illinois at Chicago. Dr. DeFelice lectures and remains active in the professional community, bringing advanced training and a steady focus on patient comfort to every case."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
+        "src": "https://www.dvbraces.com/assets/uploads/images/meet-dr-defelice.jpg",
         "webp": "",
-        "alt": "Dr. Gregory J. DeFelice, orthodontist at DeFelice Orthodontics",
+        "alt": "Dr. Gregory DeFelice, board-certified orthodontist",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -235,7 +232,7 @@
             "href": "",
             "path": "/about",
             "hash": "#meet-the-doctor",
-            "external": true,
+            "external": false,
             "include_icon": false,
             "icon": "pencil",
             "color": "black"
@@ -265,10 +262,10 @@
     },
     {
       "acf_fc_layout": "block_masonary_grid",
-      "title": "Treatment Options",
+      "title": "Our Treatments",
       "paragraphs": [
         {
-          "text": "We offer Damon® Smile braces, Spark™ clear aligners, and comprehensive orthodontic care, plus adjunctive technologies to support efficient, comfortable treatment for patients of all ages."
+          "text": "We provide modern treatment options for children, teens and adults, from removable clear aligners to efficient braces systems and early interceptive appliances."
         }
       ],
       "button": {
@@ -279,9 +276,9 @@
         "href": "",
         "path": "/treatments",
         "hash": "",
-        "external": true,
+        "external": false,
         "include_icon": false,
-        "icon": "tooth-outline",
+        "icon": "tooth-two-v2",
         "color": "black"
       },
       "links": true,
@@ -289,9 +286,9 @@
       "items": [
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
-            "alt": "Spark clear aligners",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.webp",
+            "alt": "Spark clear aligners at DeFelice Orthodontics",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -301,15 +298,15 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "title": "Spark™ Clear Aligners",
+          "title": "Spark Clear Aligners",
           "path": "/treatments",
           "hash": "#spark-clear-aligners"
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/181602708_Happy_smile_of_young_woman_with_dental_braces.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/181602708_Happy_smile_of_young_woman_with_dental_braces.webp",
-            "alt": "Damon Smile braces",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.webp",
+            "alt": "Damon braces for efficient tooth movement",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -325,9 +322,9 @@
         },
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.webp",
-            "alt": "Comprehensive orthodontic care for all ages",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/40515651_teeth_with_retainer.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/40515651_teeth_with_retainer.webp",
+            "alt": "Palatal expander appliance",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -337,27 +334,9 @@
             "loading_mask": "",
             "image_selection_hints": null
           },
-          "title": "Comprehensive Orthodontic Care",
+          "title": "Palatal Expander",
           "path": "/treatments",
-          "hash": "#comprehensive-orthodontic-care"
-        },
-        {
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.webp",
-            "alt": "AcceleDent adjunctive technology",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "center",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          },
-          "title": "Accelerated & Adjunctive Technologies",
-          "path": "/treatments",
-          "hash": "#accelerated-adjunctive-technologies"
+          "hash": "#palatal-expander"
         }
       ],
       "component_options": {
@@ -370,22 +349,49 @@
       "reverse_row": false
     },
     {
+      "acf_fc_layout": "multi_item_testimonial",
+      "title": "What Our Patients Are Saying",
+      "review_text": "Read More Reviews",
+      "links": [
+        {
+          "href": "https://www.youtube.com/channel/UCVns9WMk52IjKNyImLs6uww",
+          "icon": "youtube",
+          "color": "primary"
+        }
+      ],
+      "testimonials": [
+        {
+          "author": "Gina Sanguinetti — North Wildwood",
+          "testimonial": "“One visit to DeFelice Orthodontics and seeing all of the newest technology being applied I was ready for my new look. A year and a half later my smile is better than I thought it could ever be. The friendly, courteous staff made the process much easier... I would recommend DeFelice Orthodontics to anyone looking to enhance their dental appearance.”"
+        },
+        {
+          "author": "Brian Dudley — Del Haven",
+          "testimonial": "(Listed as a named testimonial on the testimonials page; full quote available on the Testimonials page.)"
+        },
+        {
+          "author": "Andrew (Damon testimonial)",
+          "testimonial": "“After years of living with my very crooked teeth ... surgery wasn't required.”"
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": ""
+    },
+    {
       "acf_fc_layout": "multi_use_banner",
-      "title": "Follow Us on Social",
+      "title": "Follow Us on Social Media",
       "content_block": "social_block",
       "text": "",
       "social_links": [
         {
-          "href": "https://www.dvbraces.com/#instagram",
-          "icon": "instagram"
-        },
-        {
-          "href": "https://www.dvbraces.com/#facebook",
-          "icon": "facebook"
-        },
-        {
-          "href": "https://www.dvbraces.com/#tiktok",
-          "icon": "tiktok"
+          "href": "https://www.youtube.com/channel/UCVns9WMk52IjKNyImLs6uww",
+          "icon": "youtube"
         }
       ],
       "email": "",
@@ -415,7 +421,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/119902799_Young_people_with_gadgets_hanging_out.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/119902799_Young_people_with_gadgets_hanging_out.webp",
-        "alt": "Follow DeFelice Orthodontics on social media",
+        "alt": "Parents with kids relaxing in front of home",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -432,7 +438,7 @@
     },
     {
       "acf_fc_layout": "multi_use_banner",
-      "title": "Request an Appointment",
+      "title": "Ready to get started?",
       "content_block": "text_block",
       "text": "",
       "social_links": [],
@@ -440,8 +446,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "Request an appointment",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -461,9 +467,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.webp",
-        "alt": "Request an appointment at DeFelice Orthodontics",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -481,14 +487,14 @@
     {
       "seo": {
         "page_title": "Home - DeFelice Orthodontics",
-        "page_description": "DeFelice Orthodontics provides personalized orthodontic care in Cape May Court House, Hammonton, and West Creek, NJ. Damon® Smile, Spark™ aligners, and flexible",
-        "page_keywords": "orthodontics, braces, Spark aligners, Damon Smile, Cape May Court House",
+        "page_description": "DeFelice Orthodontics provides advanced, comfortable orthodontic care in Cape May Court House, Hammonton, and West Creek, NJ, including Damon® braces and Spark™",
+        "page_keywords": "orthodontics, Damon braces, Spark aligners, palatal expander, Cape May Court House, Hammonton, West Creek",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Home - DeFelice Orthodontics",
-            "description": "DeFelice Orthodontics provides personalized orthodontic care in Cape May Court House, Hammonton, and West Creek, NJ.",
-            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+            "description": "DeFelice Orthodontics provides advanced, comfortable orthodontic care in Cape May Court House, Hammonton, and West Creek, NJ.",
+            "image": "https://www.dvbraces.com/assets/uploads/images/meet-dr-defelice.jpg"
           }
         }
       }
@@ -497,26 +503,26 @@
   "About": [
     {
       "acf_fc_layout": "hero",
-      "title": "About DeFelice Orthodontics",
+      "title": "About Us",
       "text": "",
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "",
-        "aria_label": "",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
-        "path": "",
-        "hash": "",
+        "path": "/contact",
+        "hash": "#form",
         "external": false,
         "include_icon": false,
         "icon": "pencil",
-        "color": "black"
+        "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/316558526_friendly_dentist_woman_treating_beautiful_patient.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/316558526_friendly_dentist_woman_treating_beautiful_patient.webp",
-        "alt": "DeFelice Orthodontics team and office",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/96012689_happy_male_dentist_at_dental_clinic_office.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/96012689_happy_male_dentist_at_dental_clinic_office.webp",
+        "alt": "Smiling patients and team in a bright orthodontic office representing what sets us apart",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -540,16 +546,16 @@
       "title": "Our Mission",
       "paragraphs": [
         {
-          "text": "Our mission is to provide compassionate, high-quality orthodontic care that improves smiles and builds confidence for patients of all ages."
+          "text": "At DeFelice Orthodontics, we appreciate the trust you have placed in us, and we are honored that you have chosen our practice for your orthodontic needs. It is our desire to provide a unique professional experience for all who encounter our office."
         },
         {
-          "text": "We emphasize individualized treatment plans, the latest orthodontic technologies, and a friendly, comfortable patient experience tailored to each person’s needs and lifestyle."
+          "text": "We strive for excellence in all areas of our profession and seek to treat every patient as we would want to be treated. Our primary concern is about relationships: we want to be there with you, every step of the way, and give you a great smile that will last a lifetime."
         },
         {
-          "text": "From Damon® braces to Spark™ clear aligners and accelerated treatment options, we offer modern solutions to fit the way you live."
+          "text": "Our practice offers customized treatment options to fit each patient’s lifestyle, including modern braces and clear aligner choices, delivered with compassionate, patient-focused care."
         },
         {
-          "text": "At our Cape May Court House, Hammonton, and West Creek offices, we combine skilled clinical care with a warm team approach so patients feel supported from their first visit through smile completion."
+          "text": "By combining proven clinical techniques, state-of-the-art technology, and a friendly team, we make orthodontic care comfortable and achievable for families across our communities."
         }
       ],
       "component_options": {
@@ -570,9 +576,9 @@
       "title": "Meet Dr. Gregory J. DeFelice",
       "paragraphs": [],
       "image": {
-        "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
+        "src": "https://www.dvbraces.com/assets/uploads/images/meet-dr-defelice.jpg",
         "webp": "",
-        "alt": "DeFelice Orthodontics treatment room",
+        "alt": "Dr. Gregory J. DeFelice smiling headshot",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -588,19 +594,19 @@
       "buttons": [],
       "tabs": [
         {
-          "header": "Overview",
+          "header": "Professional",
           "paragraphs": [
             {
-              "text": "Dr. Gregory J. DeFelice leads DeFelice Orthodontics and provides comprehensive care for children, teens, and adults across our Cape May Court House, Hammonton, and West Creek locations. He and the team focus on individualized treatment and modern orthodontic techniques to deliver consistent, patient-centered results."
+              "text": "Dr. Gregory DeFelice grew up in the Philadelphia suburbs. He earned his Bachelor’s degree, graduating Magna Cum Laude with general university honors from LaSalle University. Dr. DeFelice then completed his Doctorate of Dental Medicine at Temple University School of Dentistry, graduating second in his class, and received his Master’s degree in Orthodontics from the University of Illinois at Chicago."
             },
             {
-              "text": "Dr. DeFelice and our staff prioritize comfort, clear communication, and treatment plans that fit each patient's lifestyle."
+              "text": "Dr. DeFelice is a board-certified Diplomate of the American Board of Orthodontics and an active member of the American Association of Orthodontists and the Middle Atlantic Society of Orthodontists. He also lectures to orthodontic residents at the University of Illinois at Chicago."
             }
           ],
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
+            "src": "https://www.dvbraces.com/assets/uploads/images/meet-dr-defelice.jpg",
             "webp": "",
-            "alt": "Treatment room at DeFelice Orthodontics",
+            "alt": "Dr. Gregory J. DeFelice professional portrait",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -614,16 +620,16 @@
           }
         },
         {
-          "header": "Treatments & Philosophy",
+          "header": "Education & Credentials",
           "paragraphs": [
             {
-              "text": "We offer a range of options, including Damon® braces, Spark™ clear aligners, and complementary technologies that may help speed treatment when appropriate. Our philosophy centers on creating efficient, comfortable plans that achieve healthy, confident smiles."
+              "text": "Education and training include: Bachelor’s degree, LaSalle University (Magna Cum Laude); Doctorate of Dental Medicine, Temple University School of Dentistry; Master’s degree in Orthodontics, University of Illinois at Chicago. Board-certified Diplomate, American Board of Orthodontics. Member, American Association of Orthodontists and Middle Atlantic Society of Orthodontists."
             }
           ],
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide3.jpg",
+            "src": "https://www.dvbraces.com/assets/uploads/images/meet-dr-defelice.jpg",
             "webp": "",
-            "alt": "Close-up of orthodontic equipment",
+            "alt": "Dr. DeFelice in clinical setting",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -632,30 +638,21 @@
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": {
-              "context_category": "Treatments Hero"
+              "context_category": "Experienced"
             }
           }
         },
         {
-          "header": "Locations & Contact",
+          "header": "Personal",
           "paragraphs": [
             {
-              "text": "We serve families at three South Jersey offices: Cape May Court House, Hammonton, and West Creek. For location details and hours visit the location pages on our site."
-            },
-            {
-              "text": "Cape May Court House — https://www.dvbraces.com/cape-may-court-house-location"
-            },
-            {
-              "text": "Hammonton — https://www.dvbraces.com/hammonton-location"
-            },
-            {
-              "text": "West Creek — https://www.dvbraces.com/west-creek-location"
+              "text": "Outside the office, Dr. DeFelice supports the community through local sports sponsorships and fundraisers. He enjoys fishing, traveling, cooking, and spending time with animals and family."
             }
           ],
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide4.jpg",
+            "src": "https://www.dvbraces.com/assets/uploads/images/meet-dr-defelice.jpg",
             "webp": "",
-            "alt": "Front desk and reception at DeFelice Orthodontics",
+            "alt": "Dr. DeFelice smiling and engaging with community",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -664,7 +661,7 @@
             "forceAlt": "",
             "loading_mask": "",
             "image_selection_hints": {
-              "context_category": "Contact Hero"
+              "context_category": "Community"
             }
           }
         }
@@ -688,13 +685,13 @@
     },
     {
       "acf_fc_layout": "single_image_slider",
-      "title": "Office Photo Tour",
+      "title": "Our Office",
       "carousel_aria": "Office Tour Carousel",
       "slides": [
         {
-          "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
+          "src": "https://www.dvbraces.com/assets/images/office-tour/00.jpg",
           "webp": "",
-          "alt": "Office photo 2",
+          "alt": "Office reception and waiting area",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -704,9 +701,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.dvbraces.com/assets/images/slideshow/slide3.jpg",
+          "src": "https://www.dvbraces.com/assets/images/office-tour/01.jpg",
           "webp": "",
-          "alt": "Office photo 3",
+          "alt": "Bright treatment room with modern equipment",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -716,9 +713,9 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.dvbraces.com/assets/images/slideshow/slide4.jpg",
+          "src": "https://www.dvbraces.com/assets/images/office-tour/03.jpg",
           "webp": "",
-          "alt": "Office photo 4",
+          "alt": "Clinical operatory designed for patient comfort",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -728,9 +725,129 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.dvbraces.com/assets/images/slideshow/slide5.jpg",
+          "src": "https://www.dvbraces.com/assets/images/office-tour/04.jpg",
           "webp": "",
-          "alt": "Office photo 5",
+          "alt": "Open, welcoming hallway and patient areas",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/05.jpg",
+          "webp": "",
+          "alt": "Treatment chairs and equipment",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/06.jpg",
+          "webp": "",
+          "alt": "Comfortable patient seating and lighting",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/07.jpg",
+          "webp": "",
+          "alt": "Treatment area with modern orthodontic technology",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/08.jpg",
+          "webp": "",
+          "alt": "Clinic workspace and patient care area",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/09.jpg",
+          "webp": "",
+          "alt": "Modern sterilization and clinical support area",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/10.jpg",
+          "webp": "",
+          "alt": "Patient treatment room view",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/11.jpg",
+          "webp": "",
+          "alt": "Office interior with welcoming decor",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/12.jpg",
+          "webp": "",
+          "alt": "Patient chair and operatory lighting",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/13.jpg",
+          "webp": "",
+          "alt": "Welcoming reception and check-in area",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.dvbraces.com/assets/images/office-tour/14.jpg",
+          "webp": "",
+          "alt": "Office exterior entry and signage",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -759,14 +876,14 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "DeFelice Orthodontics is proud to support our South Jersey community. We participate in local school screenings, sponsor community events when possible, and work to make orthodontic care accessible and welcoming to families across Cape May County."
+          "text": "Dr. DeFelice gives back to the community by sponsoring local sports teams and supporting fundraisers. Our practice values community connection and regularly participates in events that promote health and a positive experience for local families."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1018383555_A_vibrant_motorcycle_rally_features_a_lineup_of_vi.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1018383555_A_vibrant_motorcycle_rally_features_a_lineup_of_vi.webp",
-        "alt": "Smiling patient sharing time together",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/265652617_People_Donating_Food_To_Charity_Food_Bank_Collecti.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/265652617_People_Donating_Food_To_Charity_Food_Bank_Collecti.webp",
+        "alt": "Graphic representing community support by DeFelice Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -805,7 +922,7 @@
     },
     {
       "acf_fc_layout": "multi_use_banner",
-      "title": "Request an Appointment",
+      "title": "Ready to get started?",
       "content_block": "text_block",
       "text": "",
       "social_links": [],
@@ -813,8 +930,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "Request an appointment",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -834,9 +951,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.webp",
-        "alt": "Request an appointment at DeFelice Orthodontics",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/265970598_People_medicine_stomatology_and_health_care_concep.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/265970598_People_medicine_stomatology_and_health_care_concep.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -854,14 +971,14 @@
     {
       "seo": {
         "page_title": "About Us | DeFelice Orthodontics",
-        "page_description": "Learn about DeFelice Orthodontics in Cape May County, serving Cape May Court House, Hammonton, and West Creek with modern orthodontic care for all ages.",
-        "page_keywords": "DeFelice Orthodontics, orthodontist, Cape May Court House, Hammonton, West Creek, Damon, Spark, braces, clear aligners",
+        "page_description": "Learn about DeFelice Orthodontics' mission, Dr. Gregory DeFelice's credentials, and our community-focused orthodontic care in Cape May County, NJ.",
+        "page_keywords": "DeFelice Orthodontics, orthodontist, braces, clear aligners, Cape May Court House, Hammonton, West Creek",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "About Us | DeFelice Orthodontics",
-            "description": "Learn about DeFelice Orthodontics in Cape May County, serving Cape May Court House, Hammonton, and West Creek with modern orthodontic care for all ages.",
-            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+            "description": "Learn about DeFelice Orthodontics' mission, Dr. Gregory DeFelice's credentials, and our community-focused orthodontic care in Cape May County, NJ.",
+            "image": "https://www.dvbraces.com/assets/uploads/images/what-sets-us-apart.jpg"
           }
         }
       }
@@ -873,23 +990,23 @@
       "title": "Get Started",
       "text": "",
       "button": {
-        "type": "anchor",
+        "type": "nuxt",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "request appointment",
-        "href": "https://www.dvbraces.com/appointment-request",
-        "path": "",
-        "hash": "",
-        "external": true,
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
         "include_icon": false,
-        "icon": "pencil",
-        "color": "black"
+        "icon": "phone",
+        "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/285911421_Client_of_private_dentistry_smiling_while_singing.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/285911421_Client_of_private_dentistry_smiling_while_singing.webp",
-        "alt": "Smiling family welcomed at Lakeshore Orthodontics front desk",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.webp",
+        "alt": "Patient forms and new patient paperwork at DeFelice Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -913,18 +1030,18 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Your first visit at DeFelice Orthodontics begins with a warm welcome. We review your dental and medical history, take any needed digital X-rays, and perform a careful orthodontic exam so we can explain the treatment options that make the most sense for you."
+          "text": "Your first visit is a comprehensive new patient exam. You will meet our team, receive a complete oral exam and any necessary X-rays, and we will discuss treatment options tailored to your needs."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "During this visit we’ll discuss timelines, estimated costs, and payment options, and answer any questions about braces or clear aligners. You can request an appointment online or choose the office location that’s most convenient for you."
+          "text": "We will review your medical history, answer questions about timing and treatment choices for children, teens, and adults, and go over financial options so you know what to expect before care begins."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211022837_Portrait_Of_Smiling_Dentist_And_Teenage_Girl_In_Cl.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211022837_Portrait_Of_Smiling_Dentist_And_Teenage_Girl_In_Cl.webp",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/68999753_Pediatric_dentist_examining_a_little_boys_teeth.webp",
         "alt": "Father with daughter at reception of dentist's surgery",
         "aria_hidden": false,
         "bgColor": "",
@@ -953,7 +1070,7 @@
       "use_video": false,
       "large_image": false,
       "has_background": false,
-      "background": "bg2",
+      "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
       "large_title": true,
@@ -965,10 +1082,10 @@
       "title": "Financing & Insurance",
       "paragraphs": [
         {
-          "text": "We accept most major dental insurance plans and will file claims electronically to help you get the maximum benefits available. Our team is here to answer questions and verify coverage before treatment begins."
+          "text": "We accept most major insurance plans and file claims electronically to make billing easy. Our team will verify benefits and explain how your coverage applies to orthodontic treatment."
         },
         {
-          "text": "Flexible payment plans and third-party financing are available to make care affordable. Speak with our treatment coordinator to review options and create a payment plan that fits your budget."
+          "text": "Flexible payment plans and third-party financing options are available. Our treatment coordinator will help you choose a plan that fits your budget and point you to the patient portal at https://patient.sesamecommunications.com/dvbraces/index.html for account access."
         }
       ],
       "component_options": {
@@ -985,8 +1102,93 @@
       "linear_gradient": ""
     },
     {
+      "acf_fc_layout": "image_text",
+      "title": "Patient Forms",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Before your appointment, please complete your new patient paperwork. Printable forms and online submissions are available so we can review your information before your visit."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Use our online resources to save time on the day of your appointment. If you prefer printable forms, download and bring them with you. To request an appointment or access your account, use the links below."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/306422676_Female_visitor_filling_out_medicine_documents.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/306422676_Female_visitor_filling_out_medicine_documents.webp",
+        "alt": "Patient filling out new patient forms online",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [
+        {
+          "button": {
+            "type": "anchor",
+            "style": "secondary",
+            "label": "Request an Appointment",
+            "aria_label": "appointment request",
+            "href": "https://www.dvbraces.com/appointment-request",
+            "path": "",
+            "hash": "",
+            "external": true,
+            "include_icon": false,
+            "icon": "pencil",
+            "color": "black"
+          }
+        },
+        {
+          "button": {
+            "type": "anchor",
+            "style": "secondary",
+            "label": "Patient Portal",
+            "aria_label": "patient portal",
+            "href": "https://patient.sesamecommunications.com/dvbraces/index.html",
+            "path": "",
+            "hash": "",
+            "external": true,
+            "include_icon": false,
+            "icon": "google",
+            "color": "black"
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": true,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
       "acf_fc_layout": "multi_use_banner",
-      "title": "Request an Appointment",
+      "title": "Ready to get started?",
       "content_block": "text_block",
       "text": "",
       "social_links": [],
@@ -994,8 +1196,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "Request an appointment",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1015,9 +1217,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/306422676_Female_visitor_filling_out_medicine_documents.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/306422676_Female_visitor_filling_out_medicine_documents.webp",
-        "alt": "Request an appointment at DeFelice Orthodontics",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/183240584_Doctor_and_patient_shaking_hands.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/183240584_Doctor_and_patient_shaking_hands.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1035,14 +1237,14 @@
     {
       "seo": {
         "page_title": "Get Started | DeFelice Orthodontics",
-        "page_description": "Start your smile journey with DeFelice Orthodontics. Learn what to expect at your first visit, access forms, and request an appointment online.",
-        "page_keywords": "orthodontics, new patient, forms, appointment, DeFelice Orthodontics",
+        "page_description": "Start your orthodontic care at DeFelice Orthodontics. Find what to expect on your first visit, complete patient forms, and schedule your consultation.",
+        "page_keywords": "orthodontics, new patient, patient forms, appointment, DeFelice Orthodontics",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Get Started | DeFelice Orthodontics",
-            "description": "Start your smile journey with DeFelice Orthodontics. Learn what to expect at your first visit, access forms, and request an appointment online.",
-            "image": "https://d2jdm9a19iwpm4.cloudfront.net/get-started/get-started-hero-v2.jpg"
+            "description": "Start your orthodontic care at DeFelice Orthodontics. Find what to expect on your first visit, complete patient forms, and schedule your consultation.",
+            "image": "https://www.dvbraces.com/assets/uploads/images/patient-forms.jpg"
           }
         }
       }
@@ -1051,26 +1253,26 @@
   "Treatments": [
     {
       "acf_fc_layout": "hero",
-      "title": "Revolutionary Orthodontic Treatment",
+      "title": "Treatments",
       "text": "",
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "",
-        "aria_label": "",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
-        "path": "",
-        "hash": "",
+        "path": "/contact",
+        "hash": "#form",
         "external": false,
         "include_icon": false,
         "icon": "pencil",
-        "color": "black"
+        "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/258026937_Top_view_of_invisalign_braces_or_invisible_retaine.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/258026937_Top_view_of_invisalign_braces_or_invisible_retaine.webp",
-        "alt": "Smiling patients in a modern orthodontic office",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.webp",
+        "alt": "Smiling patients of all ages in a bright orthodontic office",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1078,9 +1280,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Treatments Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "src": "",
@@ -1091,36 +1291,19 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Pediatric & Early Treatment",
+      "title": "Spark Clear Aligners",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "DeFelice Orthodontics is a progressive, friendly practice committed to comprehensive care for children and teens. Early visits let us spot developing issues and, when appropriate, start gentle treatments that guide jaw growth and make future care simpler."
+          "text": "Spark Clear Aligners are a clear, removable alternative to traditional braces. Each tray is custom-made and designed to move teeth gradually; patients typically wear aligners about 22 hours a day for each one- to two-week stage."
         }
       ],
-      "accordion": [
-        {
-          "header": "Early Intervention",
-          "paragraphs": [
-            {
-              "text": "Starting treatment at the right time can reduce the need for more invasive procedures later. We evaluate growth patterns and bite development, and recommend simple, targeted steps when they will make the biggest long-term difference."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/141940713_Young_boy_looking_at_the_mirror_with_toothy_smile.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/141940713_Young_boy_looking_at_the_mirror_with_toothy_smile.webp",
-            "alt": "Young patient receiving early orthodontic intervention",
-            "image_selection_hints": {
-              "context_category": "Kid"
-            }
-          }
-        }
-      ],
+      "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/262028825_Child_smiling_while_sitting_in_the_dentists_chair.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/262028825_Child_smiling_while_sitting_in_the_dentists_chair.webp",
-        "alt": "Smiling family enjoying time together",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.webp",
+        "alt": "Spark clear aligner product image",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1128,9 +1311,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "All Ages"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
@@ -1138,63 +1319,12 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "pediatric-early-treatment",
+        "hash": "spark-clear-aligners",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
       },
       "reverse": false,
-      "has_buttons": false,
-      "has_accordion": true,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Adult Treatment — Spark™",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Spark™ clear aligners are ideal for adult patients who want to enhance their smile while keeping treatment discreet. These removable aligners let you eat, brush, and floss normally while progressing toward a confident smile."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024688_Woman_Wearing_Clear_Aligner_In_Dental_Clinic.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024688_Woman_Wearing_Clear_Aligner_In_Dental_Clinic.webp",
-        "alt": "Close-up of clear aligners being placed on teeth",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Adult"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "adult-treatment",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
       "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
@@ -1210,19 +1340,24 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Damon® Smile braces overview",
+      "title": "Damon Smile & Ultima",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Damon® Smile braces offer an efficient, low-friction system that helps many patients reach treatment goals with fewer adjustments. They are an excellent choice for teens and adults who want a proven bracket option."
+          "text": "The Damon system uses a passive, self-ligating bracket that holds the archwire in place without elastic ties, often allowing teeth to move more freely with fewer adjustments."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Damon Ultima, used alongside advanced treatment approaches, can help reduce overall treatment time for many patients when clinically appropriate."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
-        "alt": "Two stylish smiling teens taking selfie with braces",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.webp",
+        "alt": "Damon Smile orthodontic brackets",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1230,9 +1365,61 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Teen"
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "damon-smile",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Traditional & Clear Braces",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Traditional metal braces remain a durable, cost-effective option that uses brackets and wires to move teeth into position over time."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Clear braces offer a more discreet fixed option by blending with tooth color while still providing reliable tooth movement for many cases."
         }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.webp",
+        "alt": "Two smiling teens with braces taking a selfie",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
@@ -1247,11 +1434,11 @@
       },
       "reverse": false,
       "has_buttons": false,
-      "has_accordion": true,
+      "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
-      "has_background": true,
+      "has_background": false,
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
@@ -1261,24 +1448,24 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Spark™ clear aligners",
+      "title": "Phase One / Interceptive",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Spark™ aligners use precise digital planning to move teeth predictably. They are comfortable, clear, and designed for adults who want an effective, low-profile option."
+          "text": "Phase One, or interceptive treatment, evaluates jaw growth and tooth eruption early to guide development. Treating certain issues around age seven can reduce complexity later and sometimes avoid extractions."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "Your treatment plan is personalized, and we monitor progress closely so adjustments happen only when needed, keeping visits efficient and focused."
+          "text": "Examples include expanders and partial braces that create space and improve function, often shortening or simplifying later treatment."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/412396002_Invisalign.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/412396002_Invisalign.webp",
-        "alt": "Close-up of clear aligners being placed on teeth",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
+        "alt": "Phase One orthodontic treatment before image",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1286,81 +1473,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Adult"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [
-        {
-          "button": {
-            "type": "anchor",
-            "style": "underline",
-            "label": "Learn about Spark™ Aligners",
-            "aria_label": "learn about spark aligners",
-            "href": "https://www.dvbraces.com/spark-clear-aligners",
-            "path": "",
-            "hash": "",
-            "external": true,
-            "include_icon": false,
-            "icon": "tooth-check",
-            "color": "black"
-          }
-        }
-      ],
-      "component_options": {
-        "hash": "spark",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
-      "has_buttons": true,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg2",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Orthognathic Surgery",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "For complex jaw discrepancies, we coordinate surgical and orthodontic care with experienced oral and maxillofacial surgeons. This collaborative approach aligns bite, improves function, and enhances facial balance."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "When surgery is recommended, we guide you through each step: pre-surgical orthodontics, the operation, and post-surgical finishing to ensure stable, long-term results."
-        }
-      ],
-      "accordion": [],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.webp",
-        "alt": "Orthodontic patient receiving orthognathic surgical consultation",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Surgery"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
@@ -1368,18 +1481,18 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "orthognathic-surgery",
+        "hash": "phase-one",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
       },
-      "reverse": false,
+      "reverse": true,
       "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
-      "has_background": true,
+      "has_background": false,
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
@@ -1389,24 +1502,40 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Retainers",
+      "title": "Herbst Appliance",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "After active treatment, custom retainers protect your investment. We offer removable and fixed options and will recommend a wear schedule that fits your lifestyle and long-term goals."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Regular check-ins help us confirm fit and retention. If a retainer is lost or worn, we’ll quickly restore stability so your smile stays where it belongs."
+          "text": "The Herbst appliance is a fixed device that helps encourage forward growth of the lower jaw to correct certain overbite problems. It offers a discreet, compliance-free alternative to headgear for appropriate cases."
         }
       ],
-      "accordion": [],
+      "accordion": [
+        {
+          "header": "Adjusting to a Herbst Appliance",
+          "paragraphs": [
+            {
+              "text": "Muscle tenderness and soreness are common at first but usually ease as the mouth adapts."
+            },
+            {
+              "text": "Metal parts can irritate soft tissues during the adjustment period; dental wax helps reduce rubbing."
+            },
+            {
+              "text": "Stick to softer foods initially and avoid sticky or hard items that can damage the appliance."
+            }
+          ],
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
+            "alt": "Orthodontic patient receiving orthognathic surgical consultation",
+            "image_selection_hints": null
+          }
+        }
+      ],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/56159139_hands_holding_retainer_for_teeth_and_tooth_tray.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/56159139_hands_holding_retainer_for_teeth_and_tooth_tray.webp",
-        "alt": "Young woman smiling and holding an orthodontic retainer",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/197310029.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/197310029.webp",
+        "alt": "",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1414,9 +1543,110 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Retainers"
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "herbst-appliance",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": true,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Palatal Expander",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "A palatal expander gently widens the upper jaw to create space and correct crossbites or crowding. It’s commonly used in growing children and remains in place for months to stabilize the expansion."
         }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/691022561_Dental_Plate_Retainer_in_Little_Girl_Hands_Blue_an.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/691022561_Dental_Plate_Retainer_in_Little_Girl_Hands_Blue_an.webp",
+        "alt": "Model of a palatal expander appliance",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "palatal-expander",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Retainers & Maintenance",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Retainers protect your new alignment. We offer both removable and fixed options and provide clear care instructions so results last long term."
+        },
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Care tips include brushing retainers regularly, soaking when recommended, and avoiding heat that can warp the appliance."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/487454058_A_young_woman_is_putting_on_her_Hawley_retainer.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/487454058_A_young_woman_is_putting_on_her_Hawley_retainer.webp",
+        "alt": "Patient holding a clear orthodontic retainer",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
@@ -1429,14 +1659,14 @@
         "component_margins": "none",
         "hide_component": false
       },
-      "reverse": true,
+      "reverse": false,
       "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
       "has_background": false,
-      "background": "bg2",
+      "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
       "large_title": false,
@@ -1445,68 +1675,19 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Advanced Technology",
+      "title": "Laser Technology",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "We use modern digital tools and proven clinical techniques to make treatment more comfortable, precise, and predictable. Digital planning, clear aligner workflows, and efficient bracket systems help us tailor care to each patient."
+          "text": "Laser dentistry can make certain procedures more precise and comfortable, often reducing recovery time. Uses include soft‑tissue contouring, treatment of benign lesions, and adjunctive therapies when clinically appropriate."
         }
       ],
-      "accordion": [
-        {
-          "header": "Digital Impressions & Aligner Planning",
-          "paragraphs": [
-            {
-              "text": "Digital scans and computer-guided planning let us design efficient aligner sequences so you see progress from the start."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/493853958_Dentist_scanning_woman_teeth_with_dental_intraoral.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/493853958_Dentist_scanning_woman_teeth_with_dental_intraoral.webp",
-            "alt": "Digital scanner in use during orthodontic consultation",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
-          }
-        },
-        {
-          "header": "Bracket Systems (Damon®)",
-          "paragraphs": [
-            {
-              "text": "Low-friction bracket systems can reduce treatment time and improve comfort for many patients."
-            }
-          ],
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/default-digital-xrays.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-digital-xrays.webp",
-            "alt": "Orthodontic technology and digital imaging",
-            "image_selection_hints": {
-              "context_category": "Technology"
-            }
-          }
-        },
-        {
-          "header": "Adjunctive Acceleration Devices",
-          "paragraphs": [
-            {
-              "text": "We can combine clinically supported adjuncts, such as in-office or at-home acceleration technologies, when appropriate to help treatment move efficiently."
-            }
-          ],
-          "image": {
-            "src": "https://d25xczrsvvsqdg.cloudfront.net/default-3d-planning.jpg",
-            "webp": "https://d25xczrsvvsqdg.cloudfront.net/default-3d-planning.webp",
-            "alt": "3D treatment planning software showing orthodontic simulation",
-            "image_selection_hints": {
-              "context_category": "Technology"
-            }
-          }
-        }
-      ],
+      "accordion": [],
       "image": {
-        "src": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80/33367648_dentist_office_interior.jpg",
-        "webp": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-webp,q-80/33367648_dentist_office_interior.jpg",
-        "alt": "Modern orthodontic office interior with advanced technology",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/20723079_Dental_Laser_Zahnbehandlung_Zahnfleisch.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/20723079_Dental_Laser_Zahnbehandlung_Zahnfleisch.webp",
+        "alt": "Modern dental office interior with advanced equipment",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1514,9 +1695,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Treatments Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "type": "embedded",
@@ -1524,14 +1703,14 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "technology",
+        "hash": "laser-technology",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
       },
-      "reverse": false,
+      "reverse": true,
       "has_buttons": false,
-      "has_accordion": true,
+      "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
@@ -1545,7 +1724,7 @@
     },
     {
       "acf_fc_layout": "multi_use_banner",
-      "title": "Request an Appointment",
+      "title": "Ready to get started?",
       "content_block": "text_block",
       "text": "",
       "social_links": [],
@@ -1553,8 +1732,8 @@
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "Request an appointment",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
         "path": "/contact",
         "hash": "#form",
@@ -1574,9 +1753,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://www.dvbraces.com/assets/images/slideshow/tagline.png",
-        "webp": "",
-        "alt": "Request an appointment at DeFelice Orthodontics",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/373200092_Solidarity_unite_people_hands_together_community_t.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/373200092_Solidarity_unite_people_hands_together_community_t.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1593,15 +1772,15 @@
     },
     {
       "seo": {
-        "page_title": "Treatments | DeFelice Orthodontics",
-        "page_description": "Explore treatment options at DeFelice Orthodontics, including Spark™ aligners, Damon® braces, retainers, and advanced digital workflows.",
-        "page_keywords": "orthodontic treatments, Spark aligners, Damon braces, retainers, orthognathic surgery, digital orthodontics",
+        "page_title": "Treatments | Orthodontic Care",
+        "page_description": "Explore orthodontic treatments for all ages: braces, clear aligners, expanders, Herbst appliance, retainers, and laser dentistry.",
+        "page_keywords": "orthodontic treatments, braces, clear aligners, palatal expander, Herbst appliance, retainers, laser dentistry",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Treatments | DeFelice Orthodontics",
-            "description": "Explore treatment options at DeFelice Orthodontics, including Spark™ aligners, Damon® braces, retainers, and advanced digital workflows.",
-            "image": "https://d2jdm9a19iwpm4.cloudfront.net/treatments/treatments-hero.jpg"
+            "title": "Treatments | Orthodontic Care",
+            "description": "Explore orthodontic treatments for all ages: braces, clear aligners, expanders, Herbst appliance, retainers, and laser dentistry.",
+            "image": "https://d25xczrsvvsqdg.cloudfront.net/holt-orthodontics-faq-hero.jpg"
           }
         }
       }
@@ -1610,26 +1789,26 @@
   "Contact": [
     {
       "acf_fc_layout": "hero",
-      "title": "Contact Our Offices",
+      "title": "Contact Us",
       "text": "",
       "button": {
-        "type": "anchor",
+        "type": "nuxt",
         "style": "primary",
-        "label": "Request an Appointment",
-        "aria_label": "Request an appointment at DeFelice Orthodontics",
-        "href": "https://www.dvbraces.com/appointment-request",
-        "path": "",
-        "hash": "",
-        "external": true,
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
         "include_icon": false,
-        "icon": "pencil",
-        "color": "black"
+        "icon": "tooth-outline",
+        "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.jpg",
-        "webp": "https://d25xczrsvvsqdg.cloudfront.net/chathamorthonc-treatments-hero.webp",
-        "alt": "Office reception desk with appointment book and phone",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/600329009_Man_making_an_appointment_with_medical_staffs_at_r.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/600329009_Man_making_an_appointment_with_medical_staffs_at_r.webp",
+        "alt": "Patient filling out an appointment request form at a bright, modern orthodontic reception area",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1637,7 +1816,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Contact Hero"
+        }
       },
       "video": {
         "src": "",
@@ -1648,7 +1829,7 @@
     },
     {
       "acf_fc_layout": "map",
-      "title": "Location & Directions",
+      "title": "How to Reach Us",
       "component_options": {
         "hash": "",
         "component_padding": "half",
@@ -1674,15 +1855,15 @@
     },
     {
       "seo": {
-        "page_title": "Contact DeFelice Orthodontics | Cape May Court House, Hammonton & West Creek, NJ",
-        "page_description": "Reach DeFelice Orthodontics to schedule care at our Cape May Court House, Hammonton, or West Creek offices. Easy online booking and family-focused orthodontic服务",
-        "page_keywords": "DeFelice Orthodontics contact, orthodontist Cape May Court House, Hammonton orthodontist, West Creek NJ orthodontist, appointment request",
+        "page_title": "Contact DV Braces | Cape May & South Jersey Orthodontics",
+        "page_description": "Request an appointment at DV Braces, download patient forms, or find our Cape May Court House, Hammonton, and West Creek offices.",
+        "page_keywords": "DV Braces contact, appointment request, Cape May Court House orthodontist, Hammonton orthodontist, West Creek braces",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Contact DeFelice Orthodontics | Cape May Court House, Hammonton & West Creek, NJ",
-            "description": "Reach DeFelice Orthodontics to schedule care at our Cape May Court House, Hammonton, or West Creek offices. Easy online booking and family-focused orthodontic服务",
-            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+            "title": "Contact DV Braces | Cape May & South Jersey Orthodontics",
+            "description": "Request an appointment at DV Braces, download patient forms, or find our Cape May Court House, Hammonton, and West Creek offices.",
+            "image": "https://www.dvbraces.com/assets/uploads/images/appointment-request.jpg"
           }
         }
       }
@@ -1691,26 +1872,26 @@
   "FAQ": [
     {
       "acf_fc_layout": "hero",
-      "title": "Frequently Asked Questions",
+      "title": "FAQ",
       "text": "",
       "button": {
         "type": "nuxt",
         "style": "primary",
-        "label": "",
-        "aria_label": "",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
         "href": "",
-        "path": "",
-        "hash": "",
+        "path": "/contact",
+        "hash": "#form",
         "external": false,
         "include_icon": false,
         "icon": "pencil",
-        "color": "black"
+        "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
-        "webp": "",
-        "alt": "Patient smiling in a modern orthodontic office reception area",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/1269341883_Wooden_question_mark_leaning_against_wall_in_room.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/1269341883_Wooden_question_mark_leaning_against_wall_in_room.webp",
+        "alt": "Patient smiling with orthodontic braces in our Emeryville office",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1718,9 +1899,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "FAQ Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "src": "",
@@ -1736,23 +1915,23 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Find answers to common questions about treatment options, scheduling, and payment at DeFelice Orthodontics. The Smile Engineers are here to help."
+          "text": "Find answers to common questions about braces, oral hygiene, dental checkups, activities, and appointments at DV Braces."
         }
       ],
       "accordion": [
         {
-          "header": "What orthodontic options do you offer?",
+          "header": "Do braces hurt?",
           "paragraphs": [
             {
-              "text": "We offer a variety of treatment options tailored to each patient. Our practice provides Damon Smile braces and Spark clear aligners, among other solutions. Learn more about Damon Smile at https://www.dvbraces.com/damon-smile-info and Spark aligners at https://www.dvbraces.com/spark-clear-aligners."
+              "text": "Braces do not often hurt though you may feel a small amount of discomfort for a couple days as your teeth, gums, cheeks, and mouth get used to your new braces."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
-            "webp": "",
-            "alt": "Orthodontic treatment discussion between doctor and patient in a bright treatment room",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/255770837_Young_lady_discussing_her_dental_problems_with_den.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/255770837_Young_lady_discussing_her_dental_problems_with_den.webp",
+            "alt": "Happy Family Portrait",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1760,28 +1939,26 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "FAQ Hero"
-            }
+            "image_selection_hints": null
           },
           "video": {
-            "type": "embedded",
+            "type": "file",
             "src": ""
           }
         },
         {
-          "header": "How do I schedule an appointment?",
+          "header": "Do I need to brush my teeth more often if I have braces?",
           "paragraphs": [
             {
-              "text": "Requesting an appointment is simple. Use our online form at https://www.dvbraces.com/appointment-request or call the office. We will work with your schedule to find a convenient time for a consultation."
+              "text": "With braces, you should brush your teeth at least three times a day to keep your teeth, gums, and mouth healthy and clean. Brushing regularly will help remove any food that may be caught between the braces. You should also floss daily to get in between your braces where your brush isn't able to reach. Your orthodontist can show you how to properly brush and floss once your braces are placed."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide3.jpg",
-            "webp": "",
-            "alt": "Reception desk with smiling staff ready to schedule appointments",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/202645547_Portrait_of_dentist_standing_with_arms_crossed.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/202645547_Portrait_of_dentist_standing_with_arms_crossed.webp",
+            "alt": "Couple Enjoying Time Together",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1789,28 +1966,26 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "FAQ Hero"
-            }
+            "image_selection_hints": null
           },
           "video": {
-            "type": "embedded",
+            "type": "file",
             "src": ""
           }
         },
         {
-          "header": "Where are your offices located?",
+          "header": "If I have braces, do I still need dental checkups every six months?",
           "paragraphs": [
             {
-              "text": "We see patients at multiple convenient locations. Visit our location pages to find the office nearest you: Cape May Court House (https://www.dvbraces.com/cape-may-court-house-location), Hammonton (https://www.dvbraces.com/hammonton-location), and West Creek (https://www.dvbraces.com/west-creek-location)."
+              "text": "Yes! In fact, it's even more important that patients receiving orthodontic treatment visit their dentist regularly. With braces, food may be caught in places that your toothbrush can't reach. This causes bacteria to build up that can lead to cavities, gingivitis, and gum disease. Your dentist will work closely with your orthodontist to make sure that your teeth stay clean and healthy while wearing braces."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide4.jpg",
-            "webp": "",
-            "alt": "Exterior of a modern orthodontic office with clear signage",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.webp",
+            "alt": "Collaborative Team Spirit Moment",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1818,28 +1993,26 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "FAQ Hero"
-            }
+            "image_selection_hints": null
           },
           "video": {
-            "type": "embedded",
+            "type": "file",
             "src": ""
           }
         },
         {
-          "header": "Why choose DeFelice Orthodontics?",
+          "header": "Will my braces interfere with my school activities like sports, playing an instrument, or singing?",
           "paragraphs": [
             {
-              "text": "At the orthodontic office of Dr. DeFelice, your smile is our top priority. Our highly skilled team and our use of modern treatments and technologies give you confidence that you are receiving a high standard of care tailored to your needs."
+              "text": "Playing an instrument or a contact sport may require some adjustment when you first get your braces, but wearing braces will not stop you from participating in any of your school activities. If you play a contact sport, it is recommended that you wear a mouthguard to protect your braces or appliance."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg",
-            "webp": "",
-            "alt": "Smiling orthodontic team standing together in a welcoming office",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/264152189_Kid_boy_with_question_mark_Children_education_and.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/264152189_Kid_boy_with_question_mark_Children_education_and.webp",
+            "alt": "Smiling Man Working at Desk",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1847,28 +2020,26 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "FAQ Hero"
-            }
+            "image_selection_hints": null
           },
           "video": {
-            "type": "embedded",
+            "type": "file",
             "src": ""
           }
         },
         {
-          "header": "Still have questions?",
+          "header": "How do I schedule my next appointment?",
           "paragraphs": [
             {
-              "text": "If you have more questions, visit our testimonials page at https://www.dvbraces.com/testimonials, use the chat widget on the site to ask a team member, or request an appointment at https://www.dvbraces.com/appointment-request and we will be happy to help."
+              "text": "Simply call our practice! Our front desk staff will be happy to help schedule your next appointment at your convenience. If you are a new patient or have been referred to our practice, please let us know and we will provide you with all of the information you need."
             }
           ],
           "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://www.dvbraces.com/assets/images/slideshow/slide2.jpg",
-            "webp": "",
-            "alt": "Patient speaking with a staff member at a reception desk",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/627101214_Dentist_portrait_and_man_with_arms_crossed_for_hea.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/627101214_Dentist_portrait_and_man_with_arms_crossed_for_hea.webp",
+            "alt": "Mother and Daughter Smiling Together",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -1876,12 +2047,10 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "FAQ Hero"
-            }
+            "image_selection_hints": null
           },
           "video": {
-            "type": "embedded",
+            "type": "file",
             "src": ""
           }
         }
@@ -1894,16 +2063,64 @@
       }
     },
     {
+      "acf_fc_layout": "multi_use_banner",
+      "title": "Ready to get started?",
+      "content_block": "text_block",
+      "text": "",
+      "social_links": [],
+      "email": "",
+      "button": {
+        "type": "nuxt",
+        "style": "primary",
+        "label": "Schedule Consultation",
+        "aria_label": "Schedule a consultation",
+        "href": "",
+        "path": "/contact",
+        "hash": "#form",
+        "external": false,
+        "include_icon": false,
+        "icon": "",
+        "color": ""
+      },
+      "component_options": {
+        "hash": "",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "background_type": "has_background",
+      "background": "bg2",
+      "add_texture": false,
+      "linear_gradient": "",
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/526212858_Happy_business_people_smile_during_a_planning_meet.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/526212858_Happy_business_people_smile_during_a_planning_meet.webp",
+        "alt": "Enjoying time together",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "center",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": null
+      },
+      "reversed": false,
+      "centered": true,
+      "large_title": true,
+      "text_color": "primary"
+    },
+    {
       "seo": {
-        "page_title": "FAQ | DeFelice Orthodontics",
-        "page_description": "Answers to common questions about orthodontic treatments, scheduling, and financing at DeFelice Orthodontics. Request an appointment online.",
-        "page_keywords": "orthodontics, braces, Spark aligners, Damon Smile, FAQ, DeFelice Orthodontics",
+        "page_title": "FAQ | DV Braces",
+        "page_description": "Find answers to common questions about braces, oral hygiene, checkups, activities, and scheduling at DV Braces.",
+        "page_keywords": "DV Braces, orthodontics, braces, FAQ, oral hygiene, appointments",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "FAQ | DeFelice Orthodontics",
-            "description": "Answers to common questions about orthodontic treatments, scheduling, and financing at DeFelice Orthodontics.",
-            "image": "https://www.dvbraces.com/assets/images/slideshow/slide1.jpg"
+            "title": "FAQ | DV Braces",
+            "description": "Find answers to common questions about braces, oral hygiene, checkups, activities, and scheduling at DV Braces.",
+            "image": ""
           }
         }
       }
